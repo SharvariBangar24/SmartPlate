@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Plate | AI Food Recognition & Nutrition</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="#10b981"/>
+                <path d="M16 12C16 14.21 14.21 16 12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12Z" fill="#10b981"/>
+            </svg>
+            <h1>Smart Plate</h1>
+        </div>
+        <div class="nav-center">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#scanner">How It Works</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <button class="theme-toggle">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+            </button>
+            <button class="btn-primary nav-cta">Get Started</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-left">
+                <div class="hero-badge">AI · Nutrition · Health</div>
+                <h1 class="hero-title">Know What You Eat;<br><span class="text-green">Live Healthier</span></h1>
+                <p class="hero-description">Smart Plate uses AI to recognize your food, estimate portions, and calculate detailed nutrition — so you can make smarter, healthier choices every day.</p>
+                <button id="scan-btn" class="btn-primary btn-large">Scan My Plate &rarr;</button>
+                
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <span class="feature-number">1.</span>
+                        <div>
+                            <strong>AI Food Recognition</strong>
+                            <span>Detect multiple food items</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">2.</span>
+                        <div>
+                            <strong>Nutrition Analysis</strong>
+                            <span>Calories, protein, carbs & more</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">3.</span>
+                        <div>
+                            <strong>Better Health</strong>
+                            <span>Make informed choices</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-image-wrapper">
+                    <img src="assets/hero_healthy_plate.jpg" alt="Healthy Plate of Food" class="hero-img">
+                    
+                    <!-- Floating Labels -->
+                    <div class="floating-label label-1">
+                        <div class="label-dot"></div>
+                        <div class="label-content">
+                            <strong>Chicken</strong>
+                            <span>245 kcal</span>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-label label-2">
+                        <div class="label-dot"></div>
+                        <div class="label-content">
+                            <strong>Rice</strong>
+                            <span>200 kcal</span>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-label label-3">
+                        <div class="label-dot"></div>
+                        <div class="label-content">
+                            <strong>Vegetables</strong>
+                            <span>80 kcal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Scanner Section -->
+    <section id="scanner" class="scanner-section">
+        <div class="scanner-header">
+            <h2>Analyze Your Meal</h2>
+            <p>Upload an image or take a photo of your plate to get started.</p>
+        </div>
+
+        <div class="scanner-container">
+            <!-- Left: Actions -->
+            <div class="scanner-col scanner-actions">
+                <div class="action-card">
+                    <div class="action-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                    </div>
+                    <h3>Take Photo</h3>
+                    <p>Use your phone camera to capture your meal</p>
+                    
+                    <label for="take-photo" class="btn-outline action-btn-label">Take Photo</label>
+                    <input type="file" id="take-photo" accept="image/*" capture="environment" hidden>
+                    
+                    <div class="divider"><span>or</span></div>
+                    
+                    <label for="upload-image" class="btn-text action-btn-label">Upload Image</label>
+                    <input type="file" id="upload-image" accept="image/*" hidden>
+                </div>
+            </div>
+
+            <!-- Center: Preview -->
+            <div class="scanner-col scanner-preview">
+                <div class="preview-box">
+                    <div class="preview-area" id="preview-area">
+                        <div id="placeholder-text" class="placeholder-content">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                            <h4>No image selected</h4>
+                            <p>Take a photo or upload an image to begin</p>
+                        </div>
+                        <img id="image-preview" src="" alt="Food Preview" hidden>
+                    </div>
+                </div>
+                <button id="analyze-btn" class="btn-primary btn-full" hidden>Analyze Plate &rarr;</button>
+            </div>
+
+            <!-- Right: Info -->
+            <div class="scanner-col scanner-info">
+                <div class="info-card">
+                    <ul class="feature-list">
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            Identify multiple food items
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            Estimate portion sizes
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            Calculate nutrition values
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            Get personalized insights
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loading Animation Section -->
+    <section id="loading-section" class="loading-section" hidden>
+        <div class="loader-container">
+            <div class="spinner"></div>
+            <p>Analyzing your plate...</p>
+        </div>
+    </section>
+
+    <!-- Results Dashboard -->
+    <section id="results" class="results-section" hidden>
+        <div class="results-header">
+            <h2>Analysis Results</h2>
+        </div>
+        
+        <div class="results-container">
+            <!-- Detected Foods Card -->
+            <div class="results-card detected-foods-card">
+                <h3>Detected Foods</h3>
+                <ul id="food-list" class="detected-list">
+                    <!-- Populated by JavaScript -->
+                </ul>
+            </div>
+
+            <!-- Macros Card -->
+            <div class="results-card macros-card">
+                <h3>Nutritional Overview</h3>
+                <div class="macro-stats">
+                    <div class="stat-box calories">
+                        <span class="stat-label">Calories</span>
+                        <span class="stat-value" id="cal-val">0</span>
+                    </div>
+                    <div class="stat-box protein">
+                        <span class="stat-label">Protein</span>
+                        <span class="stat-value" id="pro-val">0g</span>
+                    </div>
+                    <div class="stat-box carbs">
+                        <span class="stat-label">Carbs</span>
+                        <span class="stat-value" id="carb-val">0g</span>
+                    </div>
+                    <div class="stat-box fat">
+                        <span class="stat-label">Fat</span>
+                        <span class="stat-value" id="fat-val">0g</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Health Insight Card -->
+            <div class="results-card insight-card">
+                <h3>Health Insight</h3>
+                <p id="health-insight-text">Loading insights...</p>
+            </div>
+        </div>
+        
+        <div class="reset-container">
+            <button id="reset-btn" class="btn-outline">Scan Another Plate</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
