@@ -31,7 +31,7 @@ const dummyAnalysisData = {
 
 // Event Listeners
 document.addEventListener('DOMContentLoaded', () => {
-    
+
     // Smooth scroll to scanner section when hero button is clicked
     scanBtnHero.addEventListener('click', () => {
         scannerSection.scrollIntoView({ behavior: 'smooth' });
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Listen for file selection on "Upload Image"
     uploadImageInput.addEventListener('change', handleImageSelection);
-    
+
     // Listen for file selection on "Take Photo"
     takePhotoInput.addEventListener('change', handleImageSelection);
 
@@ -57,19 +57,19 @@ function handleImageSelection(event) {
     const file = event.target.files[0];
     if (file) {
         const reader = new FileReader();
-        
-        reader.onload = function(e) {
+
+        reader.onload = function (e) {
             // Display the image
             imagePreview.src = e.target.result;
             imagePreview.hidden = false;
-            
+
             // Hide the placeholder text
             placeholderText.hidden = true;
-            
+
             // Show the analyze button
             analyzeBtn.hidden = false;
         }
-        
+
         // Read the image file as a Data URL (base64 string)
         reader.readAsDataURL(file);
     }
@@ -78,22 +78,49 @@ function handleImageSelection(event) {
 /**
  * Simulates a delay to mimic an AI API analyzing the image
  */
-function performAnalysis() {
+async function performAnalysis() {
     // Hide scanner, show loading spinner
     scannerSection.hidden = true;
     loadingSection.hidden = false;
-    
-    // Scroll to the loading area smoothly
+
+    // Scroll to loading area
     loadingSection.scrollIntoView({ behavior: 'smooth' });
 
-    // Simulate a network/AI delay of 2.5 seconds
-    setTimeout(() => {
-        populateResults(dummyAnalysisData);
+    try {
+        const response = await fetch('http://127.0.0.1:5000/api/test');
+
+        const data = await response.json();
+
+        console.log("Backend response:", data);
+
+        // For now, use the backend response as the insight
+        const testData = {
+            foods: [
+                { name: "Backend Connected", confidence: "100%" }
+            ],
+            nutrition: {
+                calories: "--",
+                protein: "--",
+                carbs: "--",
+                fat: "--"
+            },
+            insight: data.message
+        };
+
+        populateResults(testData);
+
         loadingSection.hidden = true;
         resultsSection.hidden = false;
-    }, 2500);
-}
 
+    } catch (error) {
+        console.error("Backend connection error:", error);
+
+        loadingSection.hidden = true;
+        scannerSection.hidden = false;
+
+        alert("Could not connect to the Smart Plate backend.");
+    }
+}
 /**
  * Populates the HTML dashboard with the provided data
  */
@@ -101,7 +128,7 @@ function populateResults(data) {
     // Populate Detected Foods List
     const foodList = document.getElementById('food-list');
     foodList.innerHTML = ''; // Clear previous items
-    
+
     data.foods.forEach(food => {
         const li = document.createElement('li');
         li.innerHTML = `<span>${food.name}</span> <span class="food-confidence">${food.confidence}</span>`;
@@ -125,17 +152,17 @@ function resetApp() {
     // Clear file inputs so the same file can be selected again if needed
     uploadImageInput.value = '';
     takePhotoInput.value = '';
-    
+
     // Reset preview area
     imagePreview.src = '';
     imagePreview.hidden = true;
     placeholderText.hidden = false;
     analyzeBtn.hidden = true;
-    
+
     // Hide results, show scanner again
     resultsSection.hidden = true;
     scannerSection.hidden = false;
-    
+
     // Scroll back up to the scanner section
     scannerSection.scrollIntoView({ behavior: 'smooth' });
 }
