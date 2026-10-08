@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Plate | AI Food Recognition & Nutrition</title>
+    <meta name="description" content="Smart Plate: A Hybrid Vision-Sensor System for Multi-Item Food Recognition, Nutrient Estimation, and Oil/Fat Content Detection using Deep Learning and NIR Spectroscopy.">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -20,16 +21,16 @@
         <div class="nav-center">
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#scanner">How It Works</a></li>
+                <li><a href="#pipeline">Pipeline</a></li>
+                <li><a href="#scanner">Analyze</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
         <div class="nav-right">
             <button class="theme-toggle">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
             </button>
-            <button class="btn-primary nav-cta">Get Started</button>
+            <button class="btn-primary nav-cta" id="nav-get-started">Get Started</button>
         </div>
     </nav>
 
@@ -37,31 +38,52 @@
     <header id="home" class="hero">
         <div class="hero-container">
             <div class="hero-left">
-                <div class="hero-badge">AI · Nutrition · Health</div>
-                <h1 class="hero-title">Know What You Eat;<br><span class="text-green">Live Healthier</span></h1>
-                <p class="hero-description">Smart Plate uses AI to recognize your food, estimate portions, and calculate detailed nutrition — so you can make smarter, healthier choices every day.</p>
-                <button id="scan-btn" class="btn-primary btn-large">Scan My Plate &rarr;</button>
-                
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Deep Learning · Computer Vision · NIR Spectroscopy
+                </div>
+                <h1 class="hero-title">Intelligent Food<br><span class="text-green">Analysis Platform</span></h1>
+                <p class="hero-subtitle">
+                    Smart Plate is a hybrid vision-sensor system that combines deep learning-based food segmentation &amp; recognition with NIR spectroscopy for comprehensive nutrient and oil/fat content analysis.
+                </p>
+                <p class="hero-description">
+                    Upload a plate image → AI segments &amp; classifies each food item → nutrition is looked up from our database → NIR sensor estimates oil/fat content.
+                </p>
+
+                <div class="hero-actions">
+                    <button id="scan-btn" class="btn-primary btn-large">Analyze My Plate &rarr;</button>
+                    <a href="#pipeline" class="btn-outline">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+                        View Pipeline
+                    </a>
+                </div>
+
                 <div class="hero-features">
                     <div class="feature-item">
-                        <span class="feature-number">1.</span>
+                        <div class="feature-icon-wrap">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                        </div>
                         <div>
-                            <strong>AI Food Recognition</strong>
-                            <span>Detect multiple food items</span>
+                            <strong>U-Net Segmentation</strong>
+                            <span>Multi-item food region extraction</span>
                         </div>
                     </div>
                     <div class="feature-item">
-                        <span class="feature-number">2.</span>
+                        <div class="feature-icon-wrap">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/></svg>
+                        </div>
                         <div>
-                            <strong>Nutrition Analysis</strong>
-                            <span>Calories, protein, carbs & more</span>
+                            <strong>Food Classification</strong>
+                            <span>CNN-based recognition with confidence</span>
                         </div>
                     </div>
                     <div class="feature-item">
-                        <span class="feature-number">3.</span>
+                        <div class="feature-icon-wrap">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M6 20V4M18 20v-4"/></svg>
+                        </div>
                         <div>
-                            <strong>Better Health</strong>
-                            <span>Make informed choices</span>
+                            <strong>Nutrition Lookup</strong>
+                            <span>Calories, protein, carbs &amp; fat</span>
                         </div>
                     </div>
                 </div>
@@ -69,7 +91,7 @@
             <div class="hero-right">
                 <div class="hero-image-wrapper">
                     <img src="assets/hero_healthy_plate.jpg" alt="Healthy Plate of Food" class="hero-img">
-                    
+
                     <!-- Floating Labels -->
                     <div class="floating-label label-1">
                         <div class="label-dot"></div>
@@ -78,7 +100,7 @@
                             <span>245 kcal</span>
                         </div>
                     </div>
-                    
+
                     <div class="floating-label label-2">
                         <div class="label-dot"></div>
                         <div class="label-content">
@@ -86,7 +108,7 @@
                             <span>200 kcal</span>
                         </div>
                     </div>
-                    
+
                     <div class="floating-label label-3">
                         <div class="label-dot"></div>
                         <div class="label-content">
@@ -98,6 +120,77 @@
             </div>
         </div>
     </header>
+
+    <!-- Pipeline / How It Works Section -->
+    <section id="pipeline" class="pipeline-section">
+        <div class="pipeline-header">
+            <h2>Analysis Pipeline</h2>
+            <p>A multi-stage deep learning pipeline processes your plate image from raw capture to full nutritional breakdown.</p>
+        </div>
+        <div class="pipeline-flow">
+            <!-- Step 1 -->
+            <div class="pipeline-step">
+                <div class="pipeline-step-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                </div>
+                <h4>Image Capture</h4>
+                <p>Upload or photograph your plate</p>
+                <span class="step-badge active-badge">Active</span>
+            </div>
+            <div class="pipeline-arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="pipeline-step">
+                <div class="pipeline-step-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M2 12h20M12 2v20"/></svg>
+                </div>
+                <h4>Segmentation</h4>
+                <p>U-Net / FoodSeg103 extracts food regions</p>
+                <span class="step-badge active-badge">Active</span>
+            </div>
+            <div class="pipeline-arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="pipeline-step">
+                <div class="pipeline-step-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                </div>
+                <h4>Classification</h4>
+                <p>CNN identifies each food item with confidence</p>
+                <span class="step-badge active-badge">Active</span>
+            </div>
+            <div class="pipeline-arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="pipeline-step">
+                <div class="pipeline-step-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M6 20V4M18 20v-4"/></svg>
+                </div>
+                <h4>Nutrition</h4>
+                <p>Database lookup for calories, protein, carbs, fat</p>
+                <span class="step-badge active-badge">Active</span>
+            </div>
+            <div class="pipeline-arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </div>
+
+            <!-- Step 5 — NIR -->
+            <div class="pipeline-step nir-step">
+                <div class="pipeline-step-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+                </div>
+                <h4>NIR Oil/Fat</h4>
+                <p>NIR spectroscopy for oil &amp; fat content</p>
+                <span class="step-badge pending-badge">Pending</span>
+            </div>
+        </div>
+    </section>
 
     <!-- Scanner Section -->
     <section id="scanner" class="scanner-section">
@@ -115,12 +208,12 @@
                     </div>
                     <h3>Take Photo</h3>
                     <p>Use your phone camera to capture your meal</p>
-                    
+
                     <label for="take-photo" class="btn-outline action-btn-label">Take Photo</label>
                     <input type="file" id="take-photo" accept="image/*" capture="environment" hidden>
-                    
+
                     <div class="divider"><span>or</span></div>
-                    
+
                     <label for="upload-image" class="btn-text action-btn-label">Upload Image</label>
                     <input type="file" id="upload-image" accept="image/*" hidden>
                 </div>
@@ -128,7 +221,7 @@
 
             <!-- Center: Preview -->
             <div class="scanner-col scanner-preview">
-                <div class="preview-box">
+                <div class="preview-box" id="preview-box">
                     <div class="preview-area" id="preview-area">
                         <div id="placeholder-text" class="placeholder-content">
                             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
@@ -138,7 +231,15 @@
                         <img id="image-preview" src="" alt="Food Preview" hidden>
                     </div>
                 </div>
-                <button id="analyze-btn" class="btn-primary btn-full" hidden>Analyze Plate &rarr;</button>
+                <!-- Image info strip (shown after image is selected) -->
+                <div id="image-info-strip" class="image-info-strip" hidden>
+                    <span class="file-name" id="file-name-display">—</span>
+                    <button class="change-btn" id="change-image-btn">Change</button>
+                </div>
+                <button id="analyze-btn" class="btn-primary btn-full" hidden>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right:0.5rem"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    Analyze Plate
+                </button>
             </div>
 
             <!-- Right: Info -->
@@ -147,19 +248,19 @@
                     <ul class="feature-list">
                         <li>
                             <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                            Identify multiple food items
+                            Segment &amp; identify multiple food items
                         </li>
                         <li>
                             <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                            Estimate portion sizes
+                            Calculate per-item nutrition values
                         </li>
                         <li>
                             <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                            Calculate nutrition values
+                            Aggregate plate-level macro totals
                         </li>
                         <li>
                             <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                            Get personalized insights
+                            Confidence-filtered results only
                         </li>
                     </ul>
                 </div>
@@ -167,11 +268,56 @@
         </div>
     </section>
 
-    <!-- Loading Animation Section -->
+    <!-- Loading / AI Analysis Section -->
     <section id="loading-section" class="loading-section" hidden>
         <div class="loader-container">
-            <div class="spinner"></div>
-            <p>Analyzing your plate...</p>
+            <div class="loader-visual">
+                <div class="loader-ring"></div>
+                <div class="loader-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                </div>
+            </div>
+            <h3>Analyzing Your Plate</h3>
+            <p>Running the AI pipeline on your image…</p>
+
+            <div class="analysis-steps" id="analysis-steps">
+                <div class="analysis-step" data-step="upload">
+                    <span class="step-icon">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <span>Uploading image…</span>
+                </div>
+                <div class="analysis-step" data-step="segment">
+                    <span class="step-icon">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <span>Running segmentation model…</span>
+                </div>
+                <div class="analysis-step" data-step="classify">
+                    <span class="step-icon">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <span>Classifying food items…</span>
+                </div>
+                <div class="analysis-step" data-step="nutrition">
+                    <span class="step-icon">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <span>Looking up nutrition data…</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Error State Section (hidden by default) -->
+    <section id="error-section" class="results-section" hidden>
+        <div class="error-state">
+            <div class="error-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+            </div>
+            <h3>Analysis Failed</h3>
+            <p id="error-message">Could not connect to the Smart Plate backend. Please check that the server is running.</p>
+            <button id="retry-btn" class="btn-primary">Try Again</button>
         </div>
     </section>
 
@@ -179,12 +325,18 @@
     <section id="results" class="results-section" hidden>
         <div class="results-header">
             <h2>Analysis Results</h2>
+            <p>AI-detected food items and their nutritional values from the Smart Plate pipeline.</p>
         </div>
-        
-        <div class="results-container">
+
+        <div class="results-grid">
             <!-- Detected Foods Card -->
             <div class="results-card detected-foods-card">
-                <h3>Detected Foods</h3>
+                <h3>
+                    <span class="card-icon green">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                    </span>
+                    Detected Foods
+                </h3>
                 <ul id="food-list" class="detected-list">
                     <!-- Populated by JavaScript -->
                 </ul>
@@ -192,38 +344,117 @@
 
             <!-- Macros Card -->
             <div class="results-card macros-card">
-                <h3>Nutritional Overview</h3>
+                <h3>
+                    <span class="card-icon blue">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M6 20V4M18 20v-4"/></svg>
+                    </span>
+                    Nutritional Overview
+                </h3>
                 <div class="macro-stats">
                     <div class="stat-box calories">
                         <span class="stat-label">Calories</span>
                         <span class="stat-value" id="cal-val">0</span>
+                        <span class="stat-unit">kcal</span>
                     </div>
                     <div class="stat-box protein">
                         <span class="stat-label">Protein</span>
-                        <span class="stat-value" id="pro-val">0g</span>
+                        <span class="stat-value" id="pro-val">0</span>
+                        <span class="stat-unit">g</span>
                     </div>
                     <div class="stat-box carbs">
                         <span class="stat-label">Carbs</span>
-                        <span class="stat-value" id="carb-val">0g</span>
+                        <span class="stat-value" id="carb-val">0</span>
+                        <span class="stat-unit">g</span>
                     </div>
                     <div class="stat-box fat">
                         <span class="stat-label">Fat</span>
-                        <span class="stat-value" id="fat-val">0g</span>
+                        <span class="stat-value" id="fat-val">0</span>
+                        <span class="stat-unit">g</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Health Insight Card -->
-            <div class="results-card insight-card">
-                <h3>Health Insight</h3>
-                <p id="health-insight-text">Loading insights...</p>
+            <!-- Total Plate Nutrition Card -->
+            <div class="results-card total-nutrition-card">
+                <h3>
+                    <span class="card-icon purple">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/></svg>
+                    </span>
+                    Plate Total
+                </h3>
+                <div id="total-nutrition-body">
+                    <div class="total-nutrition-row">
+                        <span class="label"><span class="dot cal"></span>Calories</span>
+                        <span class="value" id="total-cal">—</span>
+                    </div>
+                    <div class="total-nutrition-row">
+                        <span class="label"><span class="dot pro"></span>Protein</span>
+                        <span class="value" id="total-pro">—</span>
+                    </div>
+                    <div class="total-nutrition-row">
+                        <span class="label"><span class="dot carb"></span>Carbs</span>
+                        <span class="value" id="total-carb">—</span>
+                    </div>
+                    <div class="total-nutrition-row">
+                        <span class="label"><span class="dot fat"></span>Fat</span>
+                        <span class="value" id="total-fat">—</span>
+                    </div>
+                    <div class="total-nutrition-row total-row">
+                        <span class="label">Total Energy</span>
+                        <span class="value" id="total-energy">—</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NIR / Oil-Fat Detection Card -->
+            <div class="results-card nir-card">
+                <h3>
+                    <span class="card-icon orange">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+                    </span>
+                    Oil / Fat Detection (NIR)
+                </h3>
+                <div class="nir-status-block">
+                    <div class="nir-status-indicator">
+                        <div class="status-dot"></div>
+                    </div>
+                    <div class="nir-status-text">
+                        <h4>Sensor Not Connected</h4>
+                        <p>NIR hardware is not available</p>
+                    </div>
+                </div>
+                <p class="nir-description">
+                    <strong>About NIR Integration:</strong> The Smart Plate system is designed to integrate a Near-Infrared (NIR) spectrometer to measure oil and fat content directly from the food surface. This hardware module is currently under development and will be connected in a future release. Once available, real-time oil/fat percentage readings will appear here.
+                </p>
+            </div>
+
+            <!-- Health Insight Card (full width) -->
+            <div class="results-card insight-card full-width-card">
+                <h3>
+                    <span class="card-icon green">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    </span>
+                    Analysis Summary
+                </h3>
+                <p id="health-insight-text">Waiting for analysis…</p>
             </div>
         </div>
-        
+
         <div class="reset-container">
-            <button id="reset-btn" class="btn-outline">Scan Another Plate</button>
+            <button id="reset-btn" class="btn-outline">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right:0.4rem"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+                Scan Another Plate
+            </button>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Smart Plate — AI Food Recognition &amp; Nutrition Analysis</p>
+            <p class="footer-tech">Built with U-Net · FoodSeg103 · CNN Classification · NIR Spectroscopy (Planned)</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

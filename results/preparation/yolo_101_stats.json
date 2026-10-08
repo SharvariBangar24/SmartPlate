@@ -1,0 +1,16 @@
+{
+  "old_class_count": 105,
+  "new_class_count": 103,
+  "removed_classes": [
+    "steamed bun",
+    "porridge"
+  ],
+  "stats": {
+    "total_boxes": 40267,
+    "train_images": 4983,
+    "val_images": 2135,
+    "train_labels": 4983,
+    "val_labels": 2135,
+    "invalid_ids": 0
+  }
+}
