@@ -1,0 +1,17 @@
+ONNX Validation Report
+==============================
+MobileNetV3 PyTorch vs ONNX Match: SUCCESS (Max diff: 0.000002)
+YOLO ONNX not found.
+
+=============================================
+
+YOLO11s ONNX Validation Report
+Date: 2026-10-11 02:14:45
+
+Validation image: _Hyderabadi_Dum_Biryani__jpg.rf.8d3b5c84a4730938ad8e8aff4b974bfb.jpg
+PyTorch detections: 1
+ONNX detections: 1
+Result: SUCCESS
+Details: Class IDs, confidence scores and bounding
+boxes matched within the configured tolerances.
+Inference provider: CPU fallback after CUDA error

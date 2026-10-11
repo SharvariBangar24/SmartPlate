@@ -1,0 +1,251 @@
+{
+  "title": "SmartPlate Nutrition Analysis Comprehensive Evaluation",
+  "phase_a": {
+    "evaluation_phase": "Phase_A_Database",
+    "description": "SmartPlate NUTRITION_DB vs Independent ICMR-NIN IFCT 2017 & USDA FDC Ground Truth",
+    "total_classes_evaluated": 54,
+    "metrics": {
+      "calories": {
+        "n_samples": 54,
+        "n_samples_for_percentage": 54,
+        "mae": 4.92,
+        "rmse": 5.71,
+        "mape_percent": 3.1,
+        "pct_within_10": 96.3,
+        "pct_within_20": 100.0
+      },
+      "protein": {
+        "n_samples": 54,
+        "n_samples_for_percentage": 54,
+        "mae": 0.4,
+        "rmse": 0.56,
+        "mape_percent": 6.7,
+        "pct_within_10": 85.19,
+        "pct_within_20": 100.0
+      },
+      "carbohydrates": {
+        "n_samples": 54,
+        "n_samples_for_percentage": 53,
+        "mae": 0.58,
+        "rmse": 0.68,
+        "mape_percent": 3.48,
+        "pct_within_10": 94.34,
+        "pct_within_20": 100.0
+      },
+      "fat": {
+        "n_samples": 54,
+        "n_samples_for_percentage": 51,
+        "mae": 0.44,
+        "rmse": 0.56,
+        "mape_percent": 6.34,
+        "pct_within_10": 86.27,
+        "pct_within_20": 100.0
+      }
+    }
+  },
+  "phase_b": {
+    "evaluation_phase": "Phase_B_Weighed_Samples",
+    "description": "SmartPlate Weighed Nutrition Scaling on Nutrition5k Physical Lab Dishes",
+    "total_samples_evaluated": 160,
+    "overall_metrics": {
+      "calories": {
+        "n_samples": 160,
+        "n_samples_for_percentage": 155,
+        "mae": 18.47,
+        "rmse": 38.33,
+        "mape_percent": 25.51,
+        "pct_within_10": 49.03,
+        "pct_within_20": 49.03
+      },
+      "protein": {
+        "n_samples": 160,
+        "n_samples_for_percentage": 141,
+        "mae": 1.25,
+        "rmse": 2.92,
+        "mape_percent": 24.52,
+        "pct_within_10": 53.9,
+        "pct_within_20": 66.67
+      },
+      "carbohydrates": {
+        "n_samples": 160,
+        "n_samples_for_percentage": 135,
+        "mae": 0.37,
+        "rmse": 0.58,
+        "mape_percent": 17.0,
+        "pct_within_10": 36.3,
+        "pct_within_20": 37.78
+      },
+      "fat": {
+        "n_samples": 160,
+        "n_samples_for_percentage": 91,
+        "mae": 1.59,
+        "rmse": 2.93,
+        "mape_percent": 40.11,
+        "pct_within_10": 0.0,
+        "pct_within_20": 53.85
+      }
+    },
+    "per_class_metrics": {
+      "egg": {
+        "n_samples": 54,
+        "calories": {
+          "n_samples": 54,
+          "n_samples_for_percentage": 49,
+          "mae": 28.93,
+          "rmse": 58.64,
+          "mape_percent": 8.08,
+          "pct_within_10": 100.0,
+          "pct_within_20": 100.0
+        },
+        "protein": {
+          "n_samples": 54,
+          "n_samples_for_percentage": 49,
+          "mae": 2.37,
+          "rmse": 4.75,
+          "mape_percent": 9.96,
+          "pct_within_10": 63.27,
+          "pct_within_20": 100.0
+        },
+        "carbohydrates": {
+          "n_samples": 54,
+          "n_samples_for_percentage": 49,
+          "mae": 0.56,
+          "rmse": 0.7,
+          "mape_percent": 25.01,
+          "pct_within_10": 0.0,
+          "pct_within_20": 0.0
+        },
+        "fat": {
+          "n_samples": 54,
+          "n_samples_for_percentage": 49,
+          "mae": 2.61,
+          "rmse": 4.36,
+          "mape_percent": 12.64,
+          "pct_within_10": 0.0,
+          "pct_within_20": 100.0
+        }
+      },
+      "white_rice": {
+        "n_samples": 27,
+        "calories": {
+          "n_samples": 27,
+          "n_samples_for_percentage": 27,
+          "mae": 0.27,
+          "rmse": 0.34,
+          "mape_percent": 0.37,
+          "pct_within_10": 100.0,
+          "pct_within_20": 100.0
+        },
+        "protein": {
+          "n_samples": 27,
+          "n_samples_for_percentage": 26,
+          "mae": 0.03,
+          "rmse": 0.03,
+          "mape_percent": 1.82,
+          "pct_within_10": 100.0,
+          "pct_within_20": 100.0
+        },
+        "carbohydrates": {
+          "n_samples": 27,
+          "n_samples_for_percentage": 27,
+          "mae": 0.09,
+          "rmse": 0.09,
+          "mape_percent": 0.54,
+          "pct_within_10": 100.0,
+          "pct_within_20": 100.0
+        },
+        "fat": {
+          "n_samples": 27,
+          "n_samples_for_percentage": 0,
+          "mae": 0.03,
+          "rmse": 0.04,
+          "mape_percent": 0.0,
+          "pct_within_10": 100.0,
+          "pct_within_20": 100.0
+        }
+      },
+      "salad": {
+        "n_samples": 60,
+        "calories": {
+          "n_samples": 60,
+          "n_samples_for_percentage": 60,
+          "mae": 10.71,
+          "rmse": 16.47,
+          "mape_percent": 38.05,
+          "pct_within_10": 0.0,
+          "pct_within_20": 0.0
+        },
+        "protein": {
+          "n_samples": 60,
+          "n_samples_for_percentage": 47,
+          "mae": 1.11,
+          "rmse": 1.57,
+          "mape_percent": 61.3,
+          "pct_within_10": 0.0,
+          "pct_within_20": 0.0
+        },
+        "carbohydrates": {
+          "n_samples": 60,
+          "n_samples_for_percentage": 59,
+          "mae": 0.45,
+          "rmse": 0.66,
+          "mape_percent": 17.89,
+          "pct_within_10": 37.29,
+          "pct_within_20": 40.68
+        },
+        "fat": {
+          "n_samples": 60,
+          "n_samples_for_percentage": 23,
+          "mae": 0.85,
+          "rmse": 1.41,
+          "mape_percent": 100.0,
+          "pct_within_10": 0.0,
+          "pct_within_20": 0.0
+        }
+      },
+      "fish": {
+        "n_samples": 19,
+        "calories": {
+          "n_samples": 19,
+          "n_samples_for_percentage": 19,
+          "mae": 39.1,
+          "rmse": 41.71,
+          "mape_percent": 66.62,
+          "pct_within_10": 0.0,
+          "pct_within_20": 0.0
+        },
+        "protein": {
+          "n_samples": 19,
+          "n_samples_for_percentage": 19,
+          "mae": 0.26,
+          "rmse": 0.28,
+          "mape_percent": 2.17,
+          "pct_within_10": 100.0,
+          "pct_within_20": 100.0
+        },
+        "carbohydrates": {
+          "n_samples": 19,
+          "n_samples_for_percentage": 0,
+          "mae": 0.0,
+          "rmse": 0.0,
+          "mape_percent": 0.0,
+          "pct_within_10": 100.0,
+          "pct_within_20": 100.0
+        },
+        "fat": {
+          "n_samples": 19,
+          "n_samples_for_percentage": 19,
+          "mae": 3.26,
+          "rmse": 3.48,
+          "mape_percent": 38.46,
+          "pct_within_10": 0.0,
+          "pct_within_20": 0.0
+        }
+      }
+    },
+    "data_availability_limitation": {
+      "limitation_identified": true,
+      "details": "Indian cuisine datasets in repository (IndianFoodNet 4,076 images, SOHL 377 images) contain 2D bounding boxes only. Neither physical food weight nor chemical laboratory bomb-calorimetry/macronutrients were measured. As instructed, ordinary food images were NOT treated as calorie ground truth. Phase B is therefore rigorously executed on Nutrition5k scale-measured single-dish instances matching SmartPlate classes."
+    }
+  }
+}

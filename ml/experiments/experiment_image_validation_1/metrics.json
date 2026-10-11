@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-10-11 11:36:48",
+  "yolo_detector": {
+    "precision": 0.7622,
+    "recall": 0.6361,
+    "f1_score": 0.6935,
+    "mAP_50": 0.8038,
+    "total_gt_boxes": 1058,
+    "total_tp": 673,
+    "total_fp": 210,
+    "total_fn": 385,
+    "zero_detection_count": 33
+  },
+  "mobilenet_classifier": {
+    "top1_accuracy": 0.5394,
+    "top5_accuracy": 0.8446,
+    "total_test_crops": 901,
+    "biryani_prediction_breakdown": {
+      "fried_rice": 19,
+      "biryani": 3,
+      "pakode": 1,
+      "kadai_paneer": 1
+    }
+  },
+  "case_studies": {
+    "case_1_biryani_misclassification": {
+      "image": "1200px-Hyderabadi_Chicken_Biryani_jpg.rf.c39b821ecab23d38f0333d66902ed9f1.jpg",
+      "ground_truth": "Biryani",
+      "yolo_detected": "Biryani",
+      "yolo_confidence": 0.9667,
+      "mobilenet_top1": "fried_rice",
+      "mobilenet_confidence": 0.9991,
+      "mobilenet_top5": [
+        [
+          "fried_rice",
+          0.9990637898445129
+        ],
+        [
+          "momos",
+          0.00045373846660368145
+        ],
+        [
+          "biryani",
+          0.0002723278303164989
+        ],
+        [
+          "jalebi",
+          9.1354209871497e-05
+        ],
+        [
+          "kaathi_rolls",
+          3.5867538827005774e-05
+        ]
+      ],
+      "refinement_map_allowed": [
+        "fried_rice",
+        "biryani",
+        "white_rice"
+      ],
+      "final_pipeline_output": "fried_rice",
+      "root_cause": "MobileNet classifier incorrectly predicts 'fried_rice' with 0.999 probability on Biryani, and CATEGORY_REFINEMENT_MAP['biryani'] explicitly permits 'fried_rice' to override YOLO."
+    },
+    "case_2_zero_detection": {
+      "image": "FIS_test_000007.jpg",
+      "ground_truth": "8 Bounding Boxes of Fish (FoodInsSeg source)",
+      "top_raw_anchor_scores": [
+        [
+          "Fish",
+          0.1575
+        ],
+        [
+          "Fish",
+          0.1208
+        ],
+        [
+          "Fish",
+          0.1093
+        ],
+        [
+          "Fish",
+          0.1002
+        ],
+        [
+          "Fish",
+          0.0746
+        ],
+        [
+          "Fish",
+          0.0726
+        ],
+        [
+          "Fish",
+          0.0535
+        ],
+        [
+          "Rice",
+          0.0473
+        ],
+        [
+          "Fish",
+          0.0426
+        ],
+        [
+          "Fish",
+          0.0327
+        ]
+      ],
+      "detections_at_thresh_0_25": 0,
+      "detections_at_thresh_0_10": 1,
+      "root_cause": "Max anchor confidence for Fish was 0.1575. Under default conf_thresh=0.25, all boxes are discarded resulting in 0 detections."
+    }
+  }
+}

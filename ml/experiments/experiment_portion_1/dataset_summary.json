@@ -1,0 +1,46 @@
+{
+  "license": "CC BY-NC 4.0",
+  "source": "Institute of Smart Systems and Artificial Intelligence (ISSAI) - FPB",
+  "num_classes": 138,
+  "splits": {
+    "train": {
+      "raw_bboxes": 15348,
+      "discarded_negative_or_zero": 1592,
+      "usable_samples": 13756,
+      "unique_images": 9178,
+      "weight_stats": {
+        "min": 14.0,
+        "median": 166.0,
+        "mean": 196.72,
+        "max": 909.4,
+        "std": 145.52
+      }
+    },
+    "val": {
+      "raw_bboxes": 5943,
+      "discarded_negative_or_zero": 220,
+      "usable_samples": 5723,
+      "unique_images": 2351,
+      "weight_stats": {
+        "min": 24.5,
+        "median": 192.7,
+        "mean": 220.86,
+        "max": 909.4,
+        "std": 144.73
+      }
+    },
+    "test": {
+      "raw_bboxes": 2784,
+      "discarded_negative_or_zero": 122,
+      "usable_samples": 2662,
+      "unique_images": 2173,
+      "weight_stats": {
+        "min": 25.0,
+        "median": 173.8,
+        "mean": 205.06,
+        "max": 866.0,
+        "std": 143.67
+      }
+    }
+  }
+}

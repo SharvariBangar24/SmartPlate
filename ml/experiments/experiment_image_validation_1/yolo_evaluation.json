@@ -1,0 +1,482 @@
+{
+  "overall": {
+    "precision": 0.7622,
+    "recall": 0.6361,
+    "f1_score": 0.6935,
+    "mAP_50": 0.8038,
+    "total_gt_boxes": 1058,
+    "total_tp": 673,
+    "total_fp": 210,
+    "total_fn": 385,
+    "zero_detection_count": 33
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "Rice",
+      "gt_count": 352,
+      "pred_count": 203,
+      "TP": 145,
+      "FP": 58,
+      "FN": 207,
+      "precision": 0.7143,
+      "recall": 0.4119,
+      "f1": 0.5225
+    },
+    {
+      "class_id": 1,
+      "class_name": "Biryani",
+      "gt_count": 19,
+      "pred_count": 20,
+      "TP": 19,
+      "FP": 1,
+      "FN": 0,
+      "precision": 0.95,
+      "recall": 1.0,
+      "f1": 0.9744
+    },
+    {
+      "class_id": 2,
+      "class_name": "Roti_Naan",
+      "gt_count": 6,
+      "pred_count": 6,
+      "TP": 5,
+      "FP": 1,
+      "FN": 1,
+      "precision": 0.8333,
+      "recall": 0.8333,
+      "f1": 0.8333
+    },
+    {
+      "class_id": 3,
+      "class_name": "Poori",
+      "gt_count": 0,
+      "pred_count": 0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "class_id": 4,
+      "class_name": "Dal_Sambar",
+      "gt_count": 16,
+      "pred_count": 17,
+      "TP": 14,
+      "FP": 3,
+      "FN": 2,
+      "precision": 0.8235,
+      "recall": 0.875,
+      "f1": 0.8485
+    },
+    {
+      "class_id": 5,
+      "class_name": "Curry_Wet",
+      "gt_count": 171,
+      "pred_count": 169,
+      "TP": 143,
+      "FP": 26,
+      "FN": 28,
+      "precision": 0.8462,
+      "recall": 0.8363,
+      "f1": 0.8412
+    },
+    {
+      "class_id": 6,
+      "class_name": "Curry_Dry",
+      "gt_count": 83,
+      "pred_count": 89,
+      "TP": 77,
+      "FP": 12,
+      "FN": 6,
+      "precision": 0.8652,
+      "recall": 0.9277,
+      "f1": 0.8953
+    },
+    {
+      "class_id": 7,
+      "class_name": "Idli",
+      "gt_count": 29,
+      "pred_count": 22,
+      "TP": 21,
+      "FP": 1,
+      "FN": 8,
+      "precision": 0.9545,
+      "recall": 0.7241,
+      "f1": 0.8235
+    },
+    {
+      "class_id": 8,
+      "class_name": "Vada",
+      "gt_count": 0,
+      "pred_count": 0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "class_id": 9,
+      "class_name": "Chutney",
+      "gt_count": 42,
+      "pred_count": 42,
+      "TP": 35,
+      "FP": 7,
+      "FN": 7,
+      "precision": 0.8333,
+      "recall": 0.8333,
+      "f1": 0.8333
+    },
+    {
+      "class_id": 10,
+      "class_name": "Curd",
+      "gt_count": 0,
+      "pred_count": 0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "class_id": 11,
+      "class_name": "Salad",
+      "gt_count": 84,
+      "pred_count": 69,
+      "TP": 48,
+      "FP": 21,
+      "FN": 36,
+      "precision": 0.6957,
+      "recall": 0.5714,
+      "f1": 0.6275
+    },
+    {
+      "class_id": 12,
+      "class_name": "Egg",
+      "gt_count": 83,
+      "pred_count": 85,
+      "TP": 53,
+      "FP": 32,
+      "FN": 30,
+      "precision": 0.6235,
+      "recall": 0.6386,
+      "f1": 0.631
+    },
+    {
+      "class_id": 13,
+      "class_name": "Fish",
+      "gt_count": 173,
+      "pred_count": 161,
+      "TP": 113,
+      "FP": 48,
+      "FN": 60,
+      "precision": 0.7019,
+      "recall": 0.6532,
+      "f1": 0.6766
+    }
+  ],
+  "zero_detection_images": [
+    {
+      "image": "FIS_test_000000.jpg",
+      "gt_classes": [
+        "Fish",
+        "Fish"
+      ],
+      "gt_count": 2
+    },
+    {
+      "image": "FIS_test_000007.jpg",
+      "gt_classes": [
+        "Fish",
+        "Fish",
+        "Fish",
+        "Fish",
+        "Fish",
+        "Fish",
+        "Fish",
+        "Fish"
+      ],
+      "gt_count": 8
+    },
+    {
+      "image": "FIS_test_000009.jpg",
+      "gt_classes": [
+        "Rice"
+      ],
+      "gt_count": 1
+    },
+    {
+      "image": "FIS_test_000267.jpg",
+      "gt_classes": [
+        "Fish",
+        "Fish",
+        "Fish",
+        "Fish",
+        "Fish"
+      ],
+      "gt_count": 5
+    },
+    {
+      "image": "FIS_test_000319.jpg",
+      "gt_classes": [
+        "Egg"
+      ],
+      "gt_count": 1
+    },
+    {
+      "image": "FIS_test_000347.jpg",
+      "gt_classes": [
+        "Rice"
+      ],
+      "gt_count": 1
+    },
+    {
+      "image": "FIS_test_000364.jpg",
+      "gt_classes": [
+        "Egg",
+        "Egg"
+      ],
+      "gt_count": 2
+    },
+    {
+      "image": "FIS_test_000402.jpg",
+      "gt_classes": [
+        "Egg"
+      ],
+      "gt_count": 1
+    },
+    {
+      "image": "FIS_test_000463.jpg",
+      "gt_classes": [
+        "Rice"
+      ],
+      "gt_count": 1
+    },
+    {
+      "image": "FIS_test_000557.jpg",
+      "gt_classes": [
+        "Rice"
+      ],
+      "gt_count": 1
+    },
+    {
+      "image": "FIS_test_000577.jpg",
+      "gt_classes": [
+        "Rice"
+      ],
+      "gt_count": 1
+    },
+    {
+      "image": "FIS_test_000606.jpg",
+      "gt_classes": [
+        "Fish",
+        "Fish"
+      ],
+      "gt_count": 2
+    },
+    {
+      "image": "IFN_test_000497.jpg",
+      "gt_classes": [
+        "Chutney"
+      ],
+      "gt_count": 1
+    },
+    {
+      "image": "SOHL_test_000248.jpg",
+      "gt_classes": [
+        "Salad"
+      ],
+      "gt_count": 1
+    },
+    {
+      "image": "SOHL_test_000262.jpg",
+      "gt_classes": [
+        "Salad"
+      ],
+      "gt_count": 1
+    },
+    {
+      "image": "UEC_test_000004.jpg",
+      "gt_classes": [
+        "Fish"
+      ],
+      "gt_count": 1
+    },
+    {
+      "image": "UEC_test_000010.jpg",
+      "gt_classes": [
+        "Salad",
+        "Salad"
+      ],
+      "gt_count": 2
+    },
+    {
+      "image": "UEC_test_000057.jpg",
+      "gt_classes": [
+        "Salad"
+      ],
+      "gt_count": 1
+    },
+    {
+      "image": "UEC_test_000087.jpg",
+      "gt_classes": [
+        "Fish"
+      ],
+      "gt_count": 1
+    },
+    {
+      "image": "UEC_test_000102.jpg",
+      "gt_classes": [
+        "Curry_Wet"
+      ],
+      "gt_count": 1
+    }
+  ],
+  "misclassified_detections": [
+    {
+      "image": "FIS_test_000120.jpg",
+      "predicted_class": "Fish",
+      "ground_truth_class": "Rice",
+      "confidence": 0.585,
+      "iou": 0.6330000162124634
+    },
+    {
+      "image": "FIS_test_000120.jpg",
+      "predicted_class": "Fish",
+      "ground_truth_class": "Rice",
+      "confidence": 0.585,
+      "iou": 0.6669999957084656
+    },
+    {
+      "image": "FIS_test_000339.jpg",
+      "predicted_class": "Egg",
+      "ground_truth_class": "Rice",
+      "confidence": 0.869,
+      "iou": 0.9670000076293945
+    },
+    {
+      "image": "FIS_test_000356.jpg",
+      "predicted_class": "Rice",
+      "ground_truth_class": "Egg",
+      "confidence": 0.354,
+      "iou": 0.9020000100135803
+    },
+    {
+      "image": "FIS_test_000406.jpg",
+      "predicted_class": "Egg",
+      "ground_truth_class": "Rice",
+      "confidence": 0.799,
+      "iou": 0.5070000290870667
+    },
+    {
+      "image": "FIS_test_000406.jpg",
+      "predicted_class": "Egg",
+      "ground_truth_class": "Rice",
+      "confidence": 0.799,
+      "iou": 0.9139999747276306
+    },
+    {
+      "image": "FIS_test_000481.jpg",
+      "predicted_class": "Egg",
+      "ground_truth_class": "Fish",
+      "confidence": 0.423,
+      "iou": 0.5260000228881836
+    },
+    {
+      "image": "FIS_test_000555.jpg",
+      "predicted_class": "Curry_Wet",
+      "ground_truth_class": "Egg",
+      "confidence": 0.412,
+      "iou": 0.6729999780654907
+    },
+    {
+      "image": "IFN_test_000028.jpg",
+      "predicted_class": "Curry_Wet",
+      "ground_truth_class": "Fish",
+      "confidence": 0.861,
+      "iou": 0.9729999899864197
+    },
+    {
+      "image": "IFN_test_000053.jpg",
+      "predicted_class": "Fish",
+      "ground_truth_class": "Curry_Wet",
+      "confidence": 0.749,
+      "iou": 0.9419999718666077
+    },
+    {
+      "image": "IFN_test_000090.jpg",
+      "predicted_class": "Curry_Dry",
+      "ground_truth_class": "Curry_Wet",
+      "confidence": 0.315,
+      "iou": 0.9160000085830688
+    },
+    {
+      "image": "IFN_test_000093.jpg",
+      "predicted_class": "Curry_Dry",
+      "ground_truth_class": "Curry_Wet",
+      "confidence": 0.768,
+      "iou": 0.968999981880188
+    },
+    {
+      "image": "IFN_test_000134.jpg",
+      "predicted_class": "Fish",
+      "ground_truth_class": "Curry_Wet",
+      "confidence": 0.911,
+      "iou": 0.9610000252723694
+    },
+    {
+      "image": "IFN_test_000193.jpg",
+      "predicted_class": "Curry_Dry",
+      "ground_truth_class": "Curry_Wet",
+      "confidence": 0.45,
+      "iou": 0.9380000233650208
+    },
+    {
+      "image": "IFN_test_000210.jpg",
+      "predicted_class": "Egg",
+      "ground_truth_class": "Idli",
+      "confidence": 0.258,
+      "iou": 0.9409999847412109
+    },
+    {
+      "image": "IFN_test_000216.jpg",
+      "predicted_class": "Fish",
+      "ground_truth_class": "Curry_Wet",
+      "confidence": 0.887,
+      "iou": 0.9900000095367432
+    },
+    {
+      "image": "IFN_test_000233.jpg",
+      "predicted_class": "Curry_Wet",
+      "ground_truth_class": "Curry_Dry",
+      "confidence": 0.849,
+      "iou": 0.9359999895095825
+    },
+    {
+      "image": "IFN_test_000281.jpg",
+      "predicted_class": "Fish",
+      "ground_truth_class": "Curry_Dry",
+      "confidence": 0.298,
+      "iou": 0.8849999904632568
+    },
+    {
+      "image": "IFN_test_000292.jpg",
+      "predicted_class": "Fish",
+      "ground_truth_class": "Dal_Sambar",
+      "confidence": 0.914,
+      "iou": 0.8899999856948853
+    },
+    {
+      "image": "IFN_test_000413.jpg",
+      "predicted_class": "Dal_Sambar",
+      "ground_truth_class": "Curry_Wet",
+      "confidence": 0.917,
+      "iou": 0.9779999852180481
+    }
+  ]
+}

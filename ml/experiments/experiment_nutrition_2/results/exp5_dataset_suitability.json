@@ -1,0 +1,58 @@
+[
+  {
+    "dataset_name": "Nutrition5k",
+    "local_availability": "Metadata CSVs available locally; full image archive NOT downloaded locally",
+    "usable_dish_count": 5006,
+    "local_images_count": 0,
+    "measured_weight_available": true,
+    "measured_weight_details": "Digital electronic scale precision mass (g) for each dish and ingredient",
+    "nutrient_ground_truth_available": true,
+    "nutrient_ground_truth_details": "Bomb-calorimetry measured calories and laboratory chemical assay for protein, carbs, fat",
+    "food_classes_coverage": "556 cafeteria ingredients (Google cafeteria dishes, US cuisine). Partial overlap with universal staples (rice, egg, chicken, fish, salad), zero coverage of traditional Indian gravies or breads.",
+    "suitability_for_training": "Suitable for training generic nutrient regressors when food class and mass are known.",
+    "suitability_for_evaluation": "Suitable for independent validation of mass-scaled nutrient formulas on universal staples. NOT suitable for vision evaluation without downloading the multi-gigabyte raw video frames.",
+    "limitations_and_mismatches": "1. Cafeteria preparation mismatch: Caesar salad has parmesan/oil; eggs are scrambled with butter.\n2. Identified internal data contradiction in ingredient #49 (fish): records 13g fat with 90 kcal, violating Atwater energy conservation."
+  },
+  {
+    "dataset_name": "FoodPortionBenchmark (FPB)",
+    "local_availability": "Full 3-split YOLO bounding box labels with measured weight annotations downloaded locally (24,495 usable bounding boxes)",
+    "usable_dish_count": 14065,
+    "local_images_count": 0,
+    "measured_weight_available": true,
+    "measured_weight_details": "Scale-measured ground-truth weight in grams associated with each 2D bounding box",
+    "nutrient_ground_truth_available": false,
+    "nutrient_ground_truth_details": "Zero macronutrient ground truth (no calories, protein, carbs, or fat recorded)",
+    "food_classes_coverage": "138 Central-Asian and Western cafeteria food classes.",
+    "suitability_for_training": "High suitability for portion weight regression using 2D geometric bounding box features.",
+    "suitability_for_evaluation": "Excellent for portion weight evaluation. NOT usable for nutrient evaluation due to total lack of chemical assay labels.",
+    "limitations_and_mismatches": "1. No nutritional macronutrients.\n2. Photographed from standard top-down angles without depth camera or physical reference markers, introducing perspective scale ambiguity on uncalibrated Indian food images."
+  },
+  {
+    "dataset_name": "IndianFoodNet",
+    "local_availability": "Locally available processed subset (in ml/datasets/processed/khana and smartplate_combined)",
+    "usable_dish_count": 4076,
+    "local_images_count": 4076,
+    "measured_weight_available": false,
+    "measured_weight_details": "Zero weight measurements. Only normalized 2D bounding boxes [cx, cy, w, h].",
+    "nutrient_ground_truth_available": false,
+    "nutrient_ground_truth_details": "Zero nutritional ground truth (no calorimeter or chemical assay data).",
+    "food_classes_coverage": "High coverage of Indian dishes: Biryani, Rice, Dal, Sambar, Idli, Dosa, Curries.",
+    "suitability_for_training": "Suitable for training YOLO food detection and coarse classification.",
+    "suitability_for_evaluation": "Strictly limited to detection mAP and classification accuracy. CANNOT be used as ground truth for portion weight or calories without fabricating numbers.",
+    "limitations_and_mismatches": "1. Ordinary web/mobile food images with zero physical mass measurements.\n2. Zero nutritional laboratory labels."
+  },
+  {
+    "dataset_name": "SOHL Multi-dish",
+    "local_availability": "Referenced in combination plan (377 multi-dish annotated images)",
+    "usable_dish_count": 377,
+    "local_images_count": 377,
+    "measured_weight_available": false,
+    "measured_weight_details": "Zero measured weights (2D bounding boxes only).",
+    "nutrient_ground_truth_available": false,
+    "nutrient_ground_truth_details": "Zero calorie or macronutrient ground truth.",
+    "food_classes_coverage": "Multi-item Indian thali plates (Rice, Roti, Dal, Curry, Salad).",
+    "suitability_for_training": "Suitable for multi-object detection fine-tuning.",
+    "suitability_for_evaluation": "Suitable for visual detection audit only.",
+    "limitations_and_mismatches": "Small sample size (377 images) and complete absence of physical weight and nutrient assay labels."
+  }
+]

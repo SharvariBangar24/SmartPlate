@@ -1,0 +1,31 @@
+smart_plate_class,source_dataset,source_class,mapping_type,notes
+Rice,Indian Food OD,Rice,DIRECT,
+Rice,SOHL Multi-Dish,rice_dish,MERGED,May also contain Biryani in SOHL
+Biryani,Indian Food OD,Biryani,DIRECT,
+Roti_Naan,Indian Food OD,Roti,DIRECT,
+Roti_Naan,SOHL Multi-Dish,bread_or_Roti_naan,MERGED,Includes all generic flatbreads
+Poori,Indian Food OD,Poori,DIRECT,Distinct nutritional profile from Roti (deep fried)
+Dal,Indian Food OD,Daal,DIRECT,
+Sambar,Indian Food OD,Sambhar,DIRECT,
+Curry_Wet,Indian Food OD,Wet Curry,DIRECT,
+Curry_Wet,SOHL Multi-Dish,curry_dish,MERGED,
+Curry_Dry,Indian Food OD,Dry Curry,DIRECT,
+Curry_Dry,SOHL Multi-Dish,dry_vegetable,MERGED,
+Idli,Indian Food OD,Idli,DIRECT,
+Vada,Indian Food OD,Vada,DIRECT,
+Chutney,Indian Food OD,Chutney,DIRECT,
+Curd,Indian Food OD,Curd,DIRECT,
+Salad,Indian Food OD,Salad,DIRECT,
+Salad,SOHL Multi-Dish,salad,MERGED,SOHL only has 3 instances
+Sweet,Indian Food OD,Sweet,DIRECT,
+Sweet,SOHL Multi-Dish,sweet_item,MERGED,
+Snack,SOHL Multi-Dish,snack_item,DIRECT,Generic fried snacks
+Egg,SOHL Multi-Dish,eggs,DIRECT,
+Fish,SOHL Multi-Dish,fish_dish,DIRECT,
+EXCLUDED,SOHL Multi-Dish,Dal_or_sambar,EXCLUDED,Only 3 instances; causes ambiguity with IFOD's Daal/Sambhar split
+EXCLUDED,SOHL Multi-Dish,south_indian_breakfast,EXCLUDED,Too generic; conflicts with precise IFOD Idli/Vada classes
+EXCLUDED,SOHL Multi-Dish,accompaniment,EXCLUDED,Ambiguous (could be chutney pickle or curd)
+EXCLUDED,SOHL Multi-Dish,drink,EXCLUDED,Not part of food plate detection target
+EXCLUDED,SOHL Multi-Dish,pasta,EXCLUDED,Not Indian
+EXCLUDED,SOHL Multi-Dish,soup,EXCLUDED,Not Indian
+EXCLUDED,SOHL Multi-Dish,fruits,EXCLUDED,Too broad for specific nutrition mapping

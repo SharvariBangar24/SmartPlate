@@ -1,0 +1,154 @@
+{
+  "cal": {
+    "Rule_Based_Baseline": {
+      "n_samples": 65,
+      "n_valid_mape": 65,
+      "mae": 27.98,
+      "rmse": 40.78,
+      "mape_percent": 81.27,
+      "pct_within_10": 24.62,
+      "pct_within_20": 29.23
+    },
+    "Linear_Regression": {
+      "n_samples": 65,
+      "n_valid_mape": 65,
+      "mae": 3.36,
+      "rmse": 9.07,
+      "mape_percent": 2.59,
+      "pct_within_10": 89.23,
+      "pct_within_20": 100.0
+    },
+    "Random_Forest": {
+      "n_samples": 65,
+      "n_valid_mape": 65,
+      "mae": 9.24,
+      "rmse": 15.24,
+      "mape_percent": 17.26,
+      "pct_within_10": 61.54,
+      "pct_within_20": 80.0
+    },
+    "HistGradientBoosting": {
+      "n_samples": 65,
+      "n_valid_mape": 65,
+      "mae": 11.45,
+      "rmse": 26.15,
+      "mape_percent": 14.44,
+      "pct_within_10": 61.54,
+      "pct_within_20": 78.46
+    }
+  },
+  "pro": {
+    "Rule_Based_Baseline": {
+      "n_samples": 65,
+      "n_valid_mape": 63,
+      "mae": 1.66,
+      "rmse": 4.04,
+      "mape_percent": 22.52,
+      "pct_within_10": 31.75,
+      "pct_within_20": 69.84
+    },
+    "Linear_Regression": {
+      "n_samples": 65,
+      "n_valid_mape": 63,
+      "mae": 0.23,
+      "rmse": 0.61,
+      "mape_percent": 2.65,
+      "pct_within_10": 88.89,
+      "pct_within_20": 100.0
+    },
+    "Random_Forest": {
+      "n_samples": 65,
+      "n_valid_mape": 63,
+      "mae": 1.01,
+      "rmse": 2.77,
+      "mape_percent": 20.42,
+      "pct_within_10": 50.79,
+      "pct_within_20": 71.43
+    },
+    "HistGradientBoosting": {
+      "n_samples": 65,
+      "n_valid_mape": 63,
+      "mae": 0.89,
+      "rmse": 1.97,
+      "mape_percent": 19.13,
+      "pct_within_10": 53.97,
+      "pct_within_20": 63.49
+    }
+  },
+  "carb": {
+    "Rule_Based_Baseline": {
+      "n_samples": 65,
+      "n_valid_mape": 55,
+      "mae": 2.12,
+      "rmse": 3.6,
+      "mape_percent": 44.25,
+      "pct_within_10": 30.91,
+      "pct_within_20": 36.36
+    },
+    "Linear_Regression": {
+      "n_samples": 65,
+      "n_valid_mape": 55,
+      "mae": 0.04,
+      "rmse": 0.1,
+      "mape_percent": 2.45,
+      "pct_within_10": 87.27,
+      "pct_within_20": 100.0
+    },
+    "Random_Forest": {
+      "n_samples": 65,
+      "n_valid_mape": 55,
+      "mae": 0.5,
+      "rmse": 1.22,
+      "mape_percent": 8.36,
+      "pct_within_10": 69.09,
+      "pct_within_20": 89.09
+    },
+    "HistGradientBoosting": {
+      "n_samples": 65,
+      "n_valid_mape": 55,
+      "mae": 0.96,
+      "rmse": 2.64,
+      "mape_percent": 18.6,
+      "pct_within_10": 72.73,
+      "pct_within_20": 81.82
+    }
+  },
+  "fat": {
+    "Rule_Based_Baseline": {
+      "n_samples": 65,
+      "n_valid_mape": 29,
+      "mae": 2.6,
+      "rmse": 3.73,
+      "mape_percent": 116.7,
+      "pct_within_10": 0.0,
+      "pct_within_20": 44.83
+    },
+    "Linear_Regression": {
+      "n_samples": 65,
+      "n_valid_mape": 29,
+      "mae": 0.25,
+      "rmse": 0.67,
+      "mape_percent": 5.3,
+      "pct_within_10": 75.86,
+      "pct_within_20": 100.0
+    },
+    "Random_Forest": {
+      "n_samples": 65,
+      "n_valid_mape": 29,
+      "mae": 0.39,
+      "rmse": 0.79,
+      "mape_percent": 14.81,
+      "pct_within_10": 55.17,
+      "pct_within_20": 65.52
+    },
+    "HistGradientBoosting": {
+      "n_samples": 65,
+      "n_valid_mape": 29,
+      "mae": 0.53,
+      "rmse": 1.22,
+      "mape_percent": 31.19,
+      "pct_within_10": 62.07,
+      "pct_within_20": 68.97
+    }
+  }
+}

@@ -1,12 +1,41 @@
-﻿datasets/
-downloads/
-weights/
-*.pt
-*.pth
-frontend.zip
-__pycache__/
-*.pyc
-runs/
+# Python & Virtual Environments
+.venv/
 venv/
-results/preparation/augmentation_verification_images/
-results/preparation/FoodSeg103_YOLO_verification/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.pem
+*.key
+*.cert
+
+# Temporary Files, Logs & Backups
+*.bak
+*.task1.bak
+*.tmp
+*.temp
+*.log
+fpb_readme.txt
+disk_audit.txt
+
+# Machine Learning Datasets & Caches (Large archives & extracted images - ~14.2 GB)
+ml/datasets/
+**/.cache/
+.cache/
+
+# PyTorch Local Training Checkpoints (Superseded by production ONNX models)
+ml/models/*.pt
+ml/experiments/**/*.pt
+
+# Operating System & IDE Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

@@ -1,0 +1,8 @@
+model,val_mae_g,val_rmse_g,test_mae_g,test_rmse_g,test_r2,test_median_ae_g
+Median_Baseline,112.61,154.77,107.99,148.86,-0.074,82.0
+Class_Mean_Baseline,87.65,118.54,77.18,101.5,0.5006,62.04
+Current_HistGradBoost,75.52,105.9,61.61,87.48,0.6291,40.72
+Ridge_Regression,106.04,142.74,85.08,109.64,0.4174,73.39
+Tuned_RandomForest,93.27,127.24,69.37,91.67,0.5927,54.06
+Enhanced_HistGradBoost,76.3,107.36,61.87,88.63,0.6193,41.58
+Ensemble_HGB_RF,77.46,108.07,62.04,84.91,0.6506,45.11

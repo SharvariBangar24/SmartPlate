@@ -1,0 +1,10 @@
+dish_name,standard_serving_g,cal_density_kcal_per_g,portion_mae_g,induced_calorie_mae_kcal,induced_calorie_error_pct_of_serving,induced_protein_mae_g,induced_carbs_mae_g,induced_fat_mae_g
+biryani,300,1.5,61.61,92.41,20.54,3.08,11.3,3.7
+white_rice,158,1.297,61.61,79.94,38.99,1.68,17.35,0.16
+dal_sambar,150,0.867,61.61,53.4,41.07,2.88,8.21,1.23
+curry_wet,150,1.2,61.61,73.93,41.07,2.46,6.16,4.11
+kadai_paneer,150,1.733,61.61,106.79,41.07,4.93,4.11,7.8
+roti_naan,40,3.0,61.61,184.83,154.02,5.39,30.8,3.08
+chole_bhature,250,1.92,61.61,118.29,24.64,2.96,15.28,4.93
+egg,50,1.56,61.61,96.11,123.22,7.76,0.74,6.53
+salad,100,0.21,61.61,12.94,61.61,0.68,2.59,0.12
