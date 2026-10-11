@@ -1,0 +1,11 @@
+# Smart Plate — Minimal Backend Runtime Dependencies
+# Generated based strictly on backend/app.py imports
+
+Flask>=3.0.0
+flask-cors>=5.0.0
+opencv-python>=4.10.0
+numpy>=1.26.0
+pandas>=2.2.0
+joblib>=1.4.0
+scikit-learn>=1.5.0
+onnxruntime>=1.19.0

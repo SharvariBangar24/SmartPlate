@@ -1,0 +1,73 @@
+{
+  "dataset": "FoodPortionBenchmark (FPB)",
+  "train_samples": 13756,
+  "val_samples": 5723,
+  "test_samples": 2662,
+  "models_summary": [
+    {
+      "model": "Median_Baseline",
+      "val_mae_g": 112.61,
+      "val_rmse_g": 154.77,
+      "test_mae_g": 107.99,
+      "test_rmse_g": 148.86,
+      "test_r2": -0.074,
+      "test_median_ae_g": 82.0
+    },
+    {
+      "model": "Class_Mean_Baseline",
+      "val_mae_g": 87.65,
+      "val_rmse_g": 118.54,
+      "test_mae_g": 77.18,
+      "test_rmse_g": 101.5,
+      "test_r2": 0.5006,
+      "test_median_ae_g": 62.04
+    },
+    {
+      "model": "Current_HistGradBoost",
+      "val_mae_g": 75.52,
+      "val_rmse_g": 105.9,
+      "test_mae_g": 61.61,
+      "test_rmse_g": 87.48,
+      "test_r2": 0.6291,
+      "test_median_ae_g": 40.72
+    },
+    {
+      "model": "Ridge_Regression",
+      "val_mae_g": 106.04,
+      "val_rmse_g": 142.74,
+      "test_mae_g": 85.08,
+      "test_rmse_g": 109.64,
+      "test_r2": 0.4174,
+      "test_median_ae_g": 73.39
+    },
+    {
+      "model": "Tuned_RandomForest",
+      "val_mae_g": 93.27,
+      "val_rmse_g": 127.24,
+      "test_mae_g": 69.37,
+      "test_rmse_g": 91.67,
+      "test_r2": 0.5927,
+      "test_median_ae_g": 54.06
+    },
+    {
+      "model": "Enhanced_HistGradBoost",
+      "val_mae_g": 76.3,
+      "val_rmse_g": 107.36,
+      "test_mae_g": 61.87,
+      "test_rmse_g": 88.63,
+      "test_r2": 0.6193,
+      "test_median_ae_g": 41.58
+    },
+    {
+      "model": "Ensemble_HGB_RF",
+      "val_mae_g": 77.46,
+      "val_rmse_g": 108.07,
+      "test_mae_g": 62.04,
+      "test_rmse_g": 84.91,
+      "test_r2": 0.6506,
+      "test_median_ae_g": 45.11
+    }
+  ],
+  "best_model_test_mae_g": 61.61,
+  "generalization_notes": "FPB provides European/Central-Asian dishes photographed from fixed top-down angles. Without camera depth, phone sensor distance, or a physical scale marker (e.g. standard plate rim or coin), 2D bounding-box area has an intrinsic depth-scale ambiguity when applied to Indian food images."
+}

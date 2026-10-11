@@ -1,0 +1,22 @@
+{
+  "experiment_name": "experiment_portion_1",
+  "random_seed": 42,
+  "feature_columns": [
+    "class_id",
+    "w",
+    "h",
+    "area",
+    "aspect_ratio",
+    "sqrt_area",
+    "log_area"
+  ],
+  "models_trained": [
+    "MedianBaseline",
+    "ClassMeanBaseline",
+    "HistGradientBoostingRegressor",
+    "RandomForestRegressor"
+  ],
+  "dataset_source": "issai/Food_Portion_Benchmark",
+  "license": "CC BY-NC 4.0",
+  "training_time_seconds": 3.28
+}

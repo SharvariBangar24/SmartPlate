@@ -1,0 +1,114 @@
+{
+  "portion_regressor_test_mae_g": 61.61,
+  "error_propagation_by_dish": [
+    {
+      "dish_name": "biryani",
+      "standard_serving_g": 300,
+      "cal_density_kcal_per_g": 1.5,
+      "portion_mae_g": 61.61,
+      "induced_calorie_mae_kcal": 92.41,
+      "induced_calorie_error_pct_of_serving": 20.54,
+      "induced_protein_mae_g": 3.08,
+      "induced_carbs_mae_g": 11.3,
+      "induced_fat_mae_g": 3.7
+    },
+    {
+      "dish_name": "white_rice",
+      "standard_serving_g": 158,
+      "cal_density_kcal_per_g": 1.297,
+      "portion_mae_g": 61.61,
+      "induced_calorie_mae_kcal": 79.94,
+      "induced_calorie_error_pct_of_serving": 38.99,
+      "induced_protein_mae_g": 1.68,
+      "induced_carbs_mae_g": 17.35,
+      "induced_fat_mae_g": 0.16
+    },
+    {
+      "dish_name": "dal_sambar",
+      "standard_serving_g": 150,
+      "cal_density_kcal_per_g": 0.867,
+      "portion_mae_g": 61.61,
+      "induced_calorie_mae_kcal": 53.4,
+      "induced_calorie_error_pct_of_serving": 41.07,
+      "induced_protein_mae_g": 2.88,
+      "induced_carbs_mae_g": 8.21,
+      "induced_fat_mae_g": 1.23
+    },
+    {
+      "dish_name": "curry_wet",
+      "standard_serving_g": 150,
+      "cal_density_kcal_per_g": 1.2,
+      "portion_mae_g": 61.61,
+      "induced_calorie_mae_kcal": 73.93,
+      "induced_calorie_error_pct_of_serving": 41.07,
+      "induced_protein_mae_g": 2.46,
+      "induced_carbs_mae_g": 6.16,
+      "induced_fat_mae_g": 4.11
+    },
+    {
+      "dish_name": "kadai_paneer",
+      "standard_serving_g": 150,
+      "cal_density_kcal_per_g": 1.733,
+      "portion_mae_g": 61.61,
+      "induced_calorie_mae_kcal": 106.79,
+      "induced_calorie_error_pct_of_serving": 41.07,
+      "induced_protein_mae_g": 4.93,
+      "induced_carbs_mae_g": 4.11,
+      "induced_fat_mae_g": 7.8
+    },
+    {
+      "dish_name": "roti_naan",
+      "standard_serving_g": 40,
+      "cal_density_kcal_per_g": 3.0,
+      "portion_mae_g": 61.61,
+      "induced_calorie_mae_kcal": 184.83,
+      "induced_calorie_error_pct_of_serving": 154.02,
+      "induced_protein_mae_g": 5.39,
+      "induced_carbs_mae_g": 30.8,
+      "induced_fat_mae_g": 3.08
+    },
+    {
+      "dish_name": "chole_bhature",
+      "standard_serving_g": 250,
+      "cal_density_kcal_per_g": 1.92,
+      "portion_mae_g": 61.61,
+      "induced_calorie_mae_kcal": 118.29,
+      "induced_calorie_error_pct_of_serving": 24.64,
+      "induced_protein_mae_g": 2.96,
+      "induced_carbs_mae_g": 15.28,
+      "induced_fat_mae_g": 4.93
+    },
+    {
+      "dish_name": "egg",
+      "standard_serving_g": 50,
+      "cal_density_kcal_per_g": 1.56,
+      "portion_mae_g": 61.61,
+      "induced_calorie_mae_kcal": 96.11,
+      "induced_calorie_error_pct_of_serving": 123.22,
+      "induced_protein_mae_g": 7.76,
+      "induced_carbs_mae_g": 0.74,
+      "induced_fat_mae_g": 6.53
+    },
+    {
+      "dish_name": "salad",
+      "standard_serving_g": 100,
+      "cal_density_kcal_per_g": 0.21,
+      "portion_mae_g": 61.61,
+      "induced_calorie_mae_kcal": 12.94,
+      "induced_calorie_error_pct_of_serving": 61.61,
+      "induced_protein_mae_g": 0.68,
+      "induced_carbs_mae_g": 2.59,
+      "induced_fat_mae_g": 0.12
+    }
+  ],
+  "real_image_test": {
+    "food_1": {
+      "name": "Biryani",
+      "confidence": 0.967,
+      "estimated_weight_g": 471.8,
+      "method": "fpb_geometric_regressor",
+      "scaled_calories": 708
+    }
+  },
+  "scientific_conclusion": "Because Indian food datasets in literature (IndianFoodNet, SOHL) contain bounding boxes only and lack chemical bomb calorimetry, global end-to-end calorie accuracy cannot be stated without calibrated reference markers. The error is predominantly governed by the 2D geometric portion regressor (MAE = 61.61g), which scales proportionally with the dish's caloric density (ranging from 12.9 kcal for raw salad to 184.8 kcal for dense roti)."
+}

@@ -1,0 +1,423 @@
+[
+  {
+    "image": "frontend/test_biryani.jpg",
+    "expected": "Biryani",
+    "status_code": 200,
+    "detected_foods": [
+      "Biryani"
+    ],
+    "total_nutrition": {
+      "calories": 708,
+      "carbs": 86.5,
+      "estimated_weight_g": 471.8,
+      "fat": 28.3,
+      "is_directly_measured_weight": false,
+      "protein": 23.6
+    },
+    "foods_detail": [
+      {
+        "bbox": [
+          0.0,
+          0.8,
+          631.8,
+          635.8
+        ],
+        "class_id": 1,
+        "confidence": 0.967,
+        "name": "Biryani",
+        "nutrition": {
+          "calories": 708,
+          "carbs": 86.5,
+          "estimated_weight_g": 471.8,
+          "fat": 28.3,
+          "is_directly_measured_weight": false,
+          "protein": 23.6,
+          "serving_assumption": "1 portion (300g)",
+          "standard_serving_weight_g": 300.0,
+          "weight_method": "fpb_geometric_regressor"
+        }
+      }
+    ]
+  },
+  {
+    "image": "IFN_test_000002.jpg",
+    "expected": "Biryani",
+    "status_code": 200,
+    "detected_foods": [
+      "Biryani"
+    ],
+    "total_nutrition": {
+      "calories": 708,
+      "carbs": 86.5,
+      "estimated_weight_g": 471.8,
+      "fat": 28.3,
+      "is_directly_measured_weight": false,
+      "protein": 23.6
+    },
+    "foods_detail": [
+      {
+        "bbox": [
+          0.1,
+          17.5,
+          597.2,
+          616.9
+        ],
+        "class_id": 1,
+        "confidence": 0.961,
+        "name": "Biryani",
+        "nutrition": {
+          "calories": 708,
+          "carbs": 86.5,
+          "estimated_weight_g": 471.8,
+          "fat": 28.3,
+          "is_directly_measured_weight": false,
+          "protein": 23.6,
+          "serving_assumption": "1 portion (300g)",
+          "standard_serving_weight_g": 300.0,
+          "weight_method": "fpb_geometric_regressor"
+        }
+      }
+    ]
+  },
+  {
+    "image": "FIS_test_000009.jpg",
+    "expected": "Rice",
+    "status_code": 200,
+    "detected_foods": [],
+    "total_nutrition": {
+      "calories": 0,
+      "carbs": 0.0,
+      "estimated_weight_g": 0.0,
+      "fat": 0.0,
+      "is_directly_measured_weight": false,
+      "protein": 0.0
+    },
+    "foods_detail": []
+  },
+  {
+    "image": "SOHL_test_000070.jpg",
+    "expected": "Roti_Naan",
+    "status_code": 200,
+    "detected_foods": [
+      "curry_wet",
+      "Roti_Naan"
+    ],
+    "total_nutrition": {
+      "calories": 655,
+      "carbs": 80.1,
+      "estimated_weight_g": 392.4,
+      "fat": 24.4,
+      "is_directly_measured_weight": false,
+      "protein": 20.5
+    },
+    "foods_detail": [
+      {
+        "bbox": [
+          409.0,
+          243.3,
+          661.4,
+          509.6
+        ],
+        "class_id": 5,
+        "confidence": 0.626,
+        "name": "curry_wet",
+        "nutrition": {
+          "calories": 348,
+          "carbs": 29.0,
+          "estimated_weight_g": 290.2,
+          "fat": 19.3,
+          "is_directly_measured_weight": false,
+          "protein": 11.6,
+          "serving_assumption": "1 bowl (150g)",
+          "standard_serving_weight_g": 150.0,
+          "weight_method": "fpb_geometric_regressor"
+        }
+      },
+      {
+        "bbox": [
+          84.4,
+          200.7,
+          402.2,
+          488.1
+        ],
+        "class_id": 2,
+        "confidence": 0.7,
+        "name": "Roti_Naan",
+        "nutrition": {
+          "calories": 307,
+          "carbs": 51.1,
+          "estimated_weight_g": 102.2,
+          "fat": 5.1,
+          "is_directly_measured_weight": false,
+          "protein": 8.9,
+          "serving_assumption": "1 piece (40g)",
+          "standard_serving_weight_g": 40.0,
+          "weight_method": "fpb_geometric_regressor"
+        }
+      }
+    ]
+  },
+  {
+    "image": "IFN_test_000111.jpg",
+    "expected": "Dal_Sambar",
+    "status_code": 200,
+    "detected_foods": [
+      "dal_sambar"
+    ],
+    "total_nutrition": {
+      "calories": 283,
+      "carbs": 43.6,
+      "estimated_weight_g": 327.1,
+      "fat": 6.5,
+      "is_directly_measured_weight": false,
+      "protein": 15.3
+    },
+    "foods_detail": [
+      {
+        "bbox": [
+          129.7,
+          101.2,
+          447.9,
+          391.8
+        ],
+        "class_id": 4,
+        "confidence": 1.0,
+        "name": "dal_sambar",
+        "nutrition": {
+          "calories": 283,
+          "carbs": 43.6,
+          "estimated_weight_g": 327.1,
+          "fat": 6.5,
+          "is_directly_measured_weight": false,
+          "protein": 15.3,
+          "serving_assumption": "1 bowl (150g)",
+          "standard_serving_weight_g": 150.0,
+          "weight_method": "fpb_geometric_regressor"
+        }
+      }
+    ]
+  },
+  {
+    "image": "IFN_test_000006.jpg",
+    "expected": "Curry_Wet",
+    "status_code": 200,
+    "detected_foods": [
+      "dum_aloo",
+      "Rice"
+    ],
+    "total_nutrition": {
+      "calories": 989,
+      "carbs": 148.3,
+      "estimated_weight_g": 776.6,
+      "fat": 35.3,
+      "is_directly_measured_weight": false,
+      "protein": 18.9
+    },
+    "foods_detail": [
+      {
+        "bbox": [
+          92.2,
+          172.0,
+          547.7,
+          575.2
+        ],
+        "class_id": 5,
+        "confidence": 1.0,
+        "name": "dum_aloo",
+        "nutrition": {
+          "calories": 734,
+          "carbs": 92.8,
+          "estimated_weight_g": 579.7,
+          "fat": 34.8,
+          "is_directly_measured_weight": false,
+          "protein": 13.5,
+          "serving_assumption": "1 bowl (150g)",
+          "standard_serving_weight_g": 150.0,
+          "weight_method": "fpb_geometric_regressor"
+        }
+      },
+      {
+        "bbox": [
+          133.4,
+          0.0,
+          602.5,
+          82.4
+        ],
+        "class_id": 0,
+        "confidence": 0.636,
+        "name": "Rice",
+        "nutrition": {
+          "calories": 255,
+          "carbs": 55.5,
+          "estimated_weight_g": 196.9,
+          "fat": 0.5,
+          "is_directly_measured_weight": false,
+          "protein": 5.4,
+          "serving_assumption": "1 cup (158g)",
+          "standard_serving_weight_g": 158.0,
+          "weight_method": "fpb_geometric_regressor"
+        }
+      }
+    ]
+  },
+  {
+    "image": "IFN_test_000016.jpg",
+    "expected": "Curry_Dry",
+    "status_code": 200,
+    "detected_foods": [
+      "aloo_gobi"
+    ],
+    "total_nutrition": {
+      "calories": 517,
+      "carbs": 63.7,
+      "estimated_weight_g": 596.9,
+      "fat": 23.9,
+      "is_directly_measured_weight": false,
+      "protein": 11.9
+    },
+    "foods_detail": [
+      {
+        "bbox": [
+          63.9,
+          64.6,
+          507.4,
+          579.0
+        ],
+        "class_id": 6,
+        "confidence": 0.687,
+        "name": "aloo_gobi",
+        "nutrition": {
+          "calories": 517,
+          "carbs": 63.7,
+          "estimated_weight_g": 596.9,
+          "fat": 23.9,
+          "is_directly_measured_weight": false,
+          "protein": 11.9,
+          "serving_assumption": "1 portion (150g)",
+          "standard_serving_weight_g": 150.0,
+          "weight_method": "fpb_geometric_regressor"
+        }
+      }
+    ]
+  },
+  {
+    "image": "IFN_test_000037.jpg",
+    "expected": "Idli",
+    "status_code": 200,
+    "detected_foods": [
+      "Idli"
+    ],
+    "total_nutrition": {
+      "calories": 571,
+      "carbs": 114.2,
+      "estimated_weight_g": 475.8,
+      "fat": 2.4,
+      "is_directly_measured_weight": false,
+      "protein": 19.0
+    },
+    "foods_detail": [
+      {
+        "bbox": [
+          107.7,
+          63.3,
+          530.5,
+          534.4
+        ],
+        "class_id": 7,
+        "confidence": 0.847,
+        "name": "Idli",
+        "nutrition": {
+          "calories": 571,
+          "carbs": 114.2,
+          "estimated_weight_g": 475.8,
+          "fat": 2.4,
+          "is_directly_measured_weight": false,
+          "protein": 19.0,
+          "serving_assumption": "2 pieces (100g)",
+          "standard_serving_weight_g": 100.0,
+          "weight_method": "fpb_geometric_regressor"
+        }
+      }
+    ]
+  },
+  {
+    "image": "FIS_test_000044.jpg",
+    "expected": "Egg",
+    "status_code": 200,
+    "detected_foods": [
+      "Egg"
+    ],
+    "total_nutrition": {
+      "calories": 143,
+      "carbs": 1.3,
+      "estimated_weight_g": 104.8,
+      "fat": 10.1,
+      "is_directly_measured_weight": false,
+      "protein": 11.5
+    },
+    "foods_detail": [
+      {
+        "bbox": [
+          45.4,
+          80.2,
+          214.8,
+          298.5
+        ],
+        "class_id": 12,
+        "confidence": 0.94,
+        "name": "Egg",
+        "nutrition": {
+          "calories": 143,
+          "carbs": 1.3,
+          "estimated_weight_g": 104.8,
+          "fat": 10.1,
+          "is_directly_measured_weight": false,
+          "protein": 11.5,
+          "serving_assumption": "1 boiled (50g)",
+          "standard_serving_weight_g": 50.0,
+          "weight_method": "fpb_geometric_regressor"
+        }
+      }
+    ]
+  },
+  {
+    "image": "FIS_test_000117.jpg",
+    "expected": "Salad",
+    "status_code": 200,
+    "detected_foods": [
+      "Salad"
+    ],
+    "total_nutrition": {
+      "calories": 91,
+      "carbs": 18.3,
+      "estimated_weight_g": 456.4,
+      "fat": 0.0,
+      "is_directly_measured_weight": false,
+      "protein": 4.6
+    },
+    "foods_detail": [
+      {
+        "bbox": [
+          97.4,
+          21.6,
+          276.8,
+          134.6
+        ],
+        "class_id": 11,
+        "confidence": 0.927,
+        "name": "Salad",
+        "nutrition": {
+          "calories": 91,
+          "carbs": 18.3,
+          "estimated_weight_g": 456.4,
+          "fat": 0.0,
+          "is_directly_measured_weight": false,
+          "protein": 4.6,
+          "serving_assumption": "1 portion (100g)",
+          "standard_serving_weight_g": 100.0,
+          "weight_method": "fpb_geometric_regressor"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "experiment": "Experiment 1: Baseline Validation",
+  "phase_a_classes_validated": 54,
+  "phase_b_samples_validated": 160,
+  "unique_dish_ids": 160,
+  "zero_reference_counts": {
+    "calories": 5,
+    "protein": 19,
+    "carbs": 25,
+    "fat": 69
+  },
+  "mismatched_samples_count": 95,
+  "mismatched_breakdown": {
+    "caesar_salad": 22,
+    "scrambled_eggs": 54,
+    "fish_fillet": 19
+  },
+  "portion_mae_audit": {
+    "reported_in_nutrition_report_grams": 70.93,
+    "true_histgradboost_test_mae_grams": 61.61,
+    "true_randomforest_test_mae_grams": 70.807,
+    "true_histgradboost_val_mae_grams": 75.52,
+    "discrepancy_explanation": "The 70.93g value cited in NUTRITION_EVALUATION_REPORT.md was an inadvertent typo/confusion with RandomForest's test MAE (70.807g) and HistGradientBoosting's validation MAE (75.52g). The true test MAE of the selected portion regressor in metrics.json is 61.61g."
+  },
+  "mismatched_samples_detail": [
+    {
+      "sample_id": "dish_1562862493",
+      "display_name": "scrambled eggs (egg)",
+      "mapped_class": "egg",
+      "issue_type": "cooking_method_mismatch",
+      "details": "Scrambled eggs cooked with butter/oil (148 kcal, 11g fat/100g) compared against boiled egg entry (136 kcal, 9.6g fat/100g)."
+    },
+    {
+      "sample_id": "dish_1566502211",
+      "display_name": "caesar salad (salad)",
+      "mapped_class": "salad",
+      "issue_type": "preparation_and_ingredient_mismatch",
+      "details": "Caesar salad includes parmesan cheese, croutons, and emulsified dressing (~2.1g fat, 3.2g protein, 44 kcal/100g), whereas SmartPlate DB specifies raw Indian side salad (0.0g fat, 1.0g protein, 20 kcal/100g)."
+    },
+    {
+      "sample_id": "dish_1562787956",
+      "display_name": "caesar salad (salad)",
+      "mapped_class": "salad",
+      "issue_type": "preparation_and_ingredient_mismatch",
+      "details": "Caesar salad includes parmesan cheese, croutons, and emulsified dressing (~2.1g fat, 3.2g protein, 44 kcal/100g), whereas SmartPlate DB specifies raw Indian side salad (0.0g fat, 1.0g protein, 20 kcal/100g)."
+    },
+    {
+      "sample_id": "dish_1559233102",
+      "display_name": "scrambled eggs (egg)",
+      "mapped_class": "egg",
+      "issue_type": "cooking_method_mismatch",
+      "details": "Scrambled eggs cooked with butter/oil (148 kcal, 11g fat/100g) compared against boiled egg entry (136 kcal, 9.6g fat/100g)."
+    },
+    {
+      "sample_id": "dish_1563908923",
+      "display_name": "caesar salad (salad)",
+      "mapped_class": "salad",
+      "issue_type": "preparation_and_ingredient_mismatch",
+      "details": "Caesar salad includes parmesan cheese, croutons, and emulsified dressing (~2.1g fat, 3.2g protein, 44 kcal/100g), whereas SmartPlate DB specifies raw Indian side salad (0.0g fat, 1.0g protein, 20 kcal/100g)."
+    },
+    {
+      "sample_id": "dish_1550790252",
+      "display_name": "fish (fish)",
+      "mapped_class": "fish",
+      "issue_type": "species_and_data_anomaly",
+      "details": "Nutrition5k fish is steamed lean cod (90 kcal/100g) compared to prepared Indian fish fillet (150 kcal/100g). Furthermore, Nutrition5k ingredient #49 records 13g fat with 90 kcal, violating Atwater energy conservation."
+    },
+    {
+      "sample_id": "dish_1566922978",
+      "display_name": "scrambled eggs (egg)",
+      "mapped_class": "egg",
+      "issue_type": "cooking_method_mismatch",
+      "details": "Scrambled eggs cooked with butter/oil (148 kcal, 11g fat/100g) compared against boiled egg entry (136 kcal, 9.6g fat/100g)."
+    },
+    {
+      "sample_id": "dish_1551139675",
+      "display_name": "fish (fish)",
+      "mapped_class": "fish",
+      "issue_type": "species_and_data_anomaly",
+      "details": "Nutrition5k fish is steamed lean cod (90 kcal/100g) compared to prepared Indian fish fillet (150 kcal/100g). Furthermore, Nutrition5k ingredient #49 records 13g fat with 90 kcal, violating Atwater energy conservation."
+    },
+    {
+      "sample_id": "dish_1550788827",
+      "display_name": "fish (fish)",
+      "mapped_class": "fish",
+      "issue_type": "species_and_data_anomaly",
+      "details": "Nutrition5k fish is steamed lean cod (90 kcal/100g) compared to prepared Indian fish fillet (150 kcal/100g). Furthermore, Nutrition5k ingredient #49 records 13g fat with 90 kcal, violating Atwater energy conservation."
+    },
+    {
+      "sample_id": "dish_1551141710",
+      "display_name": "fish (fish)",
+      "mapped_class": "fish",
+      "issue_type": "species_and_data_anomaly",
+      "details": "Nutrition5k fish is steamed lean cod (90 kcal/100g) compared to prepared Indian fish fillet (150 kcal/100g). Furthermore, Nutrition5k ingredient #49 records 13g fat with 90 kcal, violating Atwater energy conservation."
+    }
+  ]
+}
