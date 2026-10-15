@@ -1,7 +1,12 @@
+﻿datasets/
+downloads/
+weights/
+*.pt
+*.pth
+frontend.zip
 __pycache__/
 *.pyc
-.env
+runs/
 venv/
-.venv/
-node_modules/
-.DS_Store
+results/preparation/augmentation_verification_images/
+results/preparation/FoodSeg103_YOLO_verification/

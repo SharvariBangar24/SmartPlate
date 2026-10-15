@@ -1,0 +1,14 @@
+{
+  "steamed bun": {
+    "train_images": 0,
+    "train_objects": 0,
+    "filtered_objects": 0,
+    "valid_objects": 0
+  },
+  "porridge": {
+    "train_images": 0,
+    "train_objects": 0,
+    "filtered_objects": 0,
+    "valid_objects": 0
+  }
+}

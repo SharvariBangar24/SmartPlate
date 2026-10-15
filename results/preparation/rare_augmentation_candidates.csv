@@ -1,0 +1,104 @@
+class_id,class_name,image_count,box_count,avg_boxes_per_image,rarity_group,image_filenames
+73,spinach,1,4,4.0000,Extremely Rare,4787.jpg
+6,pudding,4,5,1.2500,Extremely Rare,1780.jpg|412.jpg|1063.jpg|2432.jpg
+59,ginger,5,7,1.4000,Extremely Rare,2277.jpg|1419.jpg|1277.jpg|3365.jpg|1817.jpg
+1,egg tart,3,8,2.6667,Extremely Rare,2337.jpg|1699.jpg|2586.jpg
+85,ham,3,8,2.6667,Extremely Rare,4558.jpg|4460.jpg|4787.jpg
+98,noodles,6,9,1.5000,Extremely Rare,4702.jpg|4510.jpg|4626.jpg|4433.jpg|4930.jpg|4053.jpg
+62,cabbage,9,10,1.1111,Extremely Rare,2460.jpg|968.jpg|3610.jpg|4157.jpg|4215.jpg|1995.jpg|1626.jpg|4092.jpg|645.jpg
+99,rice,7,11,1.5714,Very Rare,4087.jpg|2855.jpg|363.jpg|4094.jpg|84.jpg|4645.jpg|4611.jpg
+96,pizza,10,12,1.2000,Very Rare,4919.jpg|4696.jpg|4702.jpg|1742.jpg|1743.jpg|1454.jpg|4601.jpg|4682.jpg|3555.jpg|4930.jpg
+101,dumpling,12,12,1.0000,Very Rare,220.jpg|77.jpg|1605.jpg|310.jpg|2954.jpg|3459.jpg|4886.jpg|4019.jpg|611.jpg|291.jpg|1162.jpg|573.jpg
+25,candied dates,7,14,2.0000,Very Rare,2634.jpg|4769.jpg|4754.jpg|4610.jpg|354.jpg|4545.jpg|2469.jpg
+22,peanut,7,16,2.2857,Very Rare,4474.jpg|3157.jpg|4739.jpg|1351.jpg|3355.jpg|4857.jpg|2775.jpg
+74,yam,7,16,2.2857,Very Rare,4973.jpg|4559.jpg|4980.jpg|4603.jpg|4779.jpg|4186.jpg|4573.jpg
+52,strawberry,14,19,1.3571,Very Rare,4724.jpg|3460.jpg|4550.jpg|4577.jpg|4740.jpg|3608.jpg|2487.jpg|4539.jpg|2613.jpg|4690.jpg|963.jpg|2032.jpg|4907.jpg|1775.jpg
+61,broccoli,19,22,1.1579,Very Rare,1416.jpg|1964.jpg|2426.jpg|3710.jpg|785.jpg|4236.jpg|295.jpg|1190.jpg|2773.jpg|1714.jpg|3012.jpg|2986.jpg|3031.jpg|306.jpg|2632.jpg|1687.jpg|1487.jpg|579.jpg|63.jpg
+77,pork,23,25,1.0870,Very Rare,2947.jpg|4917.jpg|332.jpg|800.jpg|1678.jpg|4737.jpg|1155.jpg|2356.jpg|4625.jpg|4929.jpg|4764.jpg|4077.jpg|4798.jpg|3579.jpg|144.jpg|274.jpg|4928.jpg|219.jpg|3890.jpg|4515.jpg|2424.jpg|1349.jpg|4322.jpg
+15,tea,24,29,1.2083,Rare,283.jpg|4755.jpg|258.jpg|4074.jpg|811.jpg|724.jpg|4516.jpg|1819.jpg|2220.jpg|4831.jpg|4420.jpg|2566.jpg|2307.jpg|450.jpg|131.jpg|727.jpg|173.jpg|1598.jpg|3584.jpg|1991.jpg|1056.jpg|4321.jpg|4348.jpg|1895.jpg
+68,cucumber,19,33,1.7368,Rare,4466.jpg|4185.jpg|3036.jpg|4446.jpg|4791.jpg|1684.jpg|3640.jpg|4874.jpg|565.jpg|1931.jpg|1427.jpg|4965.jpg|4419.jpg|4455.jpg|513.jpg|875.jpg|554.jpg|4918.jpg|1806.jpg
+78,beef,15,33,2.2000,Rare,4655.jpg|4921.jpg|4503.jpg|3986.jpg|4635.jpg|626.jpg|4711.jpg|4885.jpg|2225.jpg|3854.jpg|4886.jpg|4414.jpg|4879.jpg|4670.jpg|4526.jpg
+91,abalone,24,33,1.3750,Rare,4618.jpg|4884.jpg|4838.jpg|4195.jpg|4925.jpg|3041.jpg|317.jpg|1455.jpg|4445.jpg|4930.jpg|3593.jpg|588.jpg|3036.jpg|1395.jpg|2720.jpg|1188.jpg|4538.jpg|4933.jpg|1454.jpg|4947.jpg|1430.jpg|1226.jpg|3741.jpg|3748.jpg
+5,popcorn,10,34,3.4000,Rare,4967.jpg|4717.jpg|4483.jpg|4783.jpg|4784.jpg|4469.jpg|4490.jpg|4715.jpg|4788.jpg|4723.jpg
+20,soy,32,38,1.1875,Rare,3918.jpg|4822.jpg|2051.jpg|4677.jpg|1903.jpg|3829.jpg|3313.jpg|1546.jpg|1149.jpg|1114.jpg|2028.jpg|1781.jpg|3621.jpg|3692.jpg|4006.jpg|4302.jpg|2421.jpg|4548.jpg|2075.jpg|4021.jpg|585.jpg|3518.jpg|4358.jpg|3808.jpg|1675.jpg|2043.jpg|3807.jpg|2876.jpg|2799.jpg|3074.jpg|4251.jpg|3140.jpg
+26,apricot,22,39,1.7727,Rare,4780.jpg|4981.jpg|4574.jpg|4775.jpg|4451.jpg|1444.jpg|4709.jpg|4643.jpg|4735.jpg|4745.jpg|4506.jpg|4484.jpg|4499.jpg|4478.jpg|4410.jpg|4950.jpg|2663.jpg|4600.jpg|4719.jpg|4688.jpg|4456.jpg|4672.jpg
+42,papaya,20,39,1.9500,Rare,1437.jpg|1738.jpg|426.jpg|2765.jpg|3214.jpg|971.jpg|2129.jpg|4942.jpg|4770.jpg|1063.jpg|533.jpg|1927.jpg|4125.jpg|2549.jpg|2288.jpg|2551.jpg|3671.jpg|1465.jpg|1617.jpg|1778.jpg
+18,cashew,13,43,3.3077,Rare,4474.jpg|4558.jpg|4680.jpg|4683.jpg|4500.jpg|4717.jpg|4774.jpg|4604.jpg|4955.jpg|2404.jpg|4679.jpg|4857.jpg|2223.jpg
+17,red beans,20,44,2.2000,Rare,4562.jpg|4596.jpg|261.jpg|3965.jpg|1218.jpg|421.jpg|3133.jpg|354.jpg|3875.jpg|2325.jpg|4493.jpg|4713.jpg|2720.jpg|2733.jpg|4823.jpg|4521.jpg|4921.jpg|1524.jpg|4953.jpg|4760.jpg
+14,milk,45,47,1.0444,Rare,4476.jpg|3441.jpg|1339.jpg|720.jpg|3442.jpg|4847.jpg|700.jpg|2541.jpg|38.jpg|1699.jpg|934.jpg|854.jpg|4789.jpg|4434.jpg|4620.jpg|1639.jpg|4905.jpg|4982.jpg|4651.jpg|1090.jpg|473.jpg|4896.jpg|4475.jpg|4764.jpg|4798.jpg|2315.jpg|2203.jpg|3351.jpg|4937.jpg|1388.jpg|2564.jpg|1353.jpg|2741.jpg|4589.jpg|1827.jpg|4612.jpg|4642.jpg|4761.jpg|4873.jpg|4546.jpg|4904.jpg|600.jpg|820.jpg|476.jpg|2056.jpg
+37,hami melon,30,51,1.7000,Medium,
+38,lemon,21,51,2.4286,Medium,
+82,chicken,36,55,1.5278,Medium,
+0,candy,21,56,2.6667,Medium,
+76,tofu,54,58,1.0741,Medium,
+41,orange,38,64,1.6842,Medium,
+44,pear,29,65,2.2414,Medium,
+60,asparagus,54,71,1.3148,Medium,
+54,onion,30,73,2.4333,Medium,
+33,coconut,43,75,1.7442,Medium,
+56,radish,67,78,1.1642,Medium,
+19,dried cranberries,18,79,4.3889,Medium,
+50,watermelon,71,83,1.1690,Medium,
+34,fig,43,93,2.1628,Medium,
+27,avocado,57,96,1.6842,Medium,
+89,crab,48,96,2.0000,Medium,
+11,milkshake,80,99,1.2375,Medium,
+21,walnut,41,99,2.4146,Medium,
+67,lotus root,48,105,2.1875,Common,
+32,kiwi,47,107,2.2766,Common,
+80,duck,72,108,1.5000,Common,
+10,wine,96,117,1.2188,Common,
+35,grape,73,132,1.8082,Common,
+12,coffee,127,136,1.0709,Common,
+90,shrimp,94,138,1.4681,Common,
+70,okra,73,140,1.9178,Common,
+3,chocolate,49,151,3.0816,Common,
+13,juice,129,151,1.1705,Common,
+63,carrot,114,155,1.3596,Common,
+28,banana,100,156,1.5600,Common,
+97,pasta,82,182,2.2195,Common,
+40,olive,123,185,1.5041,Common,
+2,french fries,166,189,1.1386,Common,
+24,apple,105,189,1.8000,Common,
+100,pie,99,190,1.9192,Common,
+39,mango,94,195,2.0745,Common,
+55,celery,99,202,2.0404,Common,
+49,cantaloupe,154,207,1.3442,Common,
+102,bread stick,155,217,1.4000,Common,
+94,burger,152,232,1.5263,Common,
+71,lettuce,157,233,1.4841,Common,
+87,fish,164,233,1.4207,Common,
+16,almond,70,266,3.8000,Common,
+43,peach,183,277,1.5137,Common,
+75,seaweed,133,280,2.1053,Common,
+64,cauliflower,187,298,1.5936,Common,
+23,egg,223,305,1.3677,Common,
+84,sausage,187,312,1.6684,Common,
+53,tomato,258,324,1.2558,Common,
+95,sandwich,253,337,1.3320,Common,
+4,biscuit,218,345,1.5826,Common,
+48,pomelo,196,364,1.8571,Common,
+58,potato,343,401,1.1691,Common,
+8,cheese,276,432,1.5652,Common,
+30,cherry,159,462,2.9057,Common,
+9,cake,333,475,1.4264,Common,
+66,kelp,397,490,1.2343,Common,
+93,bread,305,528,1.7311,Common,
+81,goose,369,547,1.4824,Common,
+31,blueberry,152,554,3.6447,Common,
+36,grapefruit,423,608,1.4374,Common,
+46,plum,474,610,1.2869,Common,
+65,eggplant,464,629,1.3556,Common,
+92,squid,373,695,1.8633,Common,
+79,lamb,403,710,1.7618,Common,
+29,berry,388,718,1.8505,Common,
+7,ice cream,635,854,1.3449,Common,
+45,pineapple,728,939,1.2898,Common,
+86,bacon,704,943,1.3395,Common,
+69,mushroom,785,999,1.2726,Common,
+88,shell,636,1022,1.6069,Common,
+51,star fruit,818,1066,1.3032,Common,
+47,pomegranate,848,1111,1.3101,Common,
+72,pumpkin,790,1374,1.7392,Common,
+83,pork belly,881,1379,1.5653,Common,
+57,garlic,990,1616,1.6323,Common,

@@ -1,0 +1,1035 @@
+{
+  "results": [
+    {
+      "class_id": 73,
+      "class_name": "spinach",
+      "image_count": 1,
+      "box_count": 4,
+      "avg_boxes_per_image": 4.0,
+      "rarity_group": "Extremely Rare",
+      "image_filenames": "4787.jpg"
+    },
+    {
+      "class_id": 6,
+      "class_name": "pudding",
+      "image_count": 4,
+      "box_count": 5,
+      "avg_boxes_per_image": 1.25,
+      "rarity_group": "Extremely Rare",
+      "image_filenames": "1780.jpg|412.jpg|1063.jpg|2432.jpg"
+    },
+    {
+      "class_id": 59,
+      "class_name": "ginger",
+      "image_count": 5,
+      "box_count": 7,
+      "avg_boxes_per_image": 1.4,
+      "rarity_group": "Extremely Rare",
+      "image_filenames": "2277.jpg|1419.jpg|1277.jpg|3365.jpg|1817.jpg"
+    },
+    {
+      "class_id": 1,
+      "class_name": "egg tart",
+      "image_count": 3,
+      "box_count": 8,
+      "avg_boxes_per_image": 2.6666666666666665,
+      "rarity_group": "Extremely Rare",
+      "image_filenames": "2337.jpg|1699.jpg|2586.jpg"
+    },
+    {
+      "class_id": 85,
+      "class_name": "ham",
+      "image_count": 3,
+      "box_count": 8,
+      "avg_boxes_per_image": 2.6666666666666665,
+      "rarity_group": "Extremely Rare",
+      "image_filenames": "4558.jpg|4460.jpg|4787.jpg"
+    },
+    {
+      "class_id": 98,
+      "class_name": "noodles",
+      "image_count": 6,
+      "box_count": 9,
+      "avg_boxes_per_image": 1.5,
+      "rarity_group": "Extremely Rare",
+      "image_filenames": "4702.jpg|4510.jpg|4626.jpg|4433.jpg|4930.jpg|4053.jpg"
+    },
+    {
+      "class_id": 62,
+      "class_name": "cabbage",
+      "image_count": 9,
+      "box_count": 10,
+      "avg_boxes_per_image": 1.1111111111111112,
+      "rarity_group": "Extremely Rare",
+      "image_filenames": "2460.jpg|968.jpg|3610.jpg|4157.jpg|4215.jpg|1995.jpg|1626.jpg|4092.jpg|645.jpg"
+    },
+    {
+      "class_id": 99,
+      "class_name": "rice",
+      "image_count": 7,
+      "box_count": 11,
+      "avg_boxes_per_image": 1.5714285714285714,
+      "rarity_group": "Very Rare",
+      "image_filenames": "4087.jpg|2855.jpg|363.jpg|4094.jpg|84.jpg|4645.jpg|4611.jpg"
+    },
+    {
+      "class_id": 96,
+      "class_name": "pizza",
+      "image_count": 10,
+      "box_count": 12,
+      "avg_boxes_per_image": 1.2,
+      "rarity_group": "Very Rare",
+      "image_filenames": "4919.jpg|4696.jpg|4702.jpg|1742.jpg|1743.jpg|1454.jpg|4601.jpg|4682.jpg|3555.jpg|4930.jpg"
+    },
+    {
+      "class_id": 101,
+      "class_name": "dumpling",
+      "image_count": 12,
+      "box_count": 12,
+      "avg_boxes_per_image": 1.0,
+      "rarity_group": "Very Rare",
+      "image_filenames": "220.jpg|77.jpg|1605.jpg|310.jpg|2954.jpg|3459.jpg|4886.jpg|4019.jpg|611.jpg|291.jpg|1162.jpg|573.jpg"
+    },
+    {
+      "class_id": 25,
+      "class_name": "candied dates",
+      "image_count": 7,
+      "box_count": 14,
+      "avg_boxes_per_image": 2.0,
+      "rarity_group": "Very Rare",
+      "image_filenames": "2634.jpg|4769.jpg|4754.jpg|4610.jpg|354.jpg|4545.jpg|2469.jpg"
+    },
+    {
+      "class_id": 22,
+      "class_name": "peanut",
+      "image_count": 7,
+      "box_count": 16,
+      "avg_boxes_per_image": 2.2857142857142856,
+      "rarity_group": "Very Rare",
+      "image_filenames": "4474.jpg|3157.jpg|4739.jpg|1351.jpg|3355.jpg|4857.jpg|2775.jpg"
+    },
+    {
+      "class_id": 74,
+      "class_name": "yam",
+      "image_count": 7,
+      "box_count": 16,
+      "avg_boxes_per_image": 2.2857142857142856,
+      "rarity_group": "Very Rare",
+      "image_filenames": "4973.jpg|4559.jpg|4980.jpg|4603.jpg|4779.jpg|4186.jpg|4573.jpg"
+    },
+    {
+      "class_id": 52,
+      "class_name": "strawberry",
+      "image_count": 14,
+      "box_count": 19,
+      "avg_boxes_per_image": 1.3571428571428572,
+      "rarity_group": "Very Rare",
+      "image_filenames": "4724.jpg|3460.jpg|4550.jpg|4577.jpg|4740.jpg|3608.jpg|2487.jpg|4539.jpg|2613.jpg|4690.jpg|963.jpg|2032.jpg|4907.jpg|1775.jpg"
+    },
+    {
+      "class_id": 61,
+      "class_name": "broccoli",
+      "image_count": 19,
+      "box_count": 22,
+      "avg_boxes_per_image": 1.1578947368421053,
+      "rarity_group": "Very Rare",
+      "image_filenames": "1416.jpg|1964.jpg|2426.jpg|3710.jpg|785.jpg|4236.jpg|295.jpg|1190.jpg|2773.jpg|1714.jpg|3012.jpg|2986.jpg|3031.jpg|306.jpg|2632.jpg|1687.jpg|1487.jpg|579.jpg|63.jpg"
+    },
+    {
+      "class_id": 77,
+      "class_name": "pork",
+      "image_count": 23,
+      "box_count": 25,
+      "avg_boxes_per_image": 1.0869565217391304,
+      "rarity_group": "Very Rare",
+      "image_filenames": "2947.jpg|4917.jpg|332.jpg|800.jpg|1678.jpg|4737.jpg|1155.jpg|2356.jpg|4625.jpg|4929.jpg|4764.jpg|4077.jpg|4798.jpg|3579.jpg|144.jpg|274.jpg|4928.jpg|219.jpg|3890.jpg|4515.jpg|2424.jpg|1349.jpg|4322.jpg"
+    },
+    {
+      "class_id": 15,
+      "class_name": "tea",
+      "image_count": 24,
+      "box_count": 29,
+      "avg_boxes_per_image": 1.2083333333333333,
+      "rarity_group": "Rare",
+      "image_filenames": "283.jpg|4755.jpg|258.jpg|4074.jpg|811.jpg|724.jpg|4516.jpg|1819.jpg|2220.jpg|4831.jpg|4420.jpg|2566.jpg|2307.jpg|450.jpg|131.jpg|727.jpg|173.jpg|1598.jpg|3584.jpg|1991.jpg|1056.jpg|4321.jpg|4348.jpg|1895.jpg"
+    },
+    {
+      "class_id": 68,
+      "class_name": "cucumber",
+      "image_count": 19,
+      "box_count": 33,
+      "avg_boxes_per_image": 1.736842105263158,
+      "rarity_group": "Rare",
+      "image_filenames": "4466.jpg|4185.jpg|3036.jpg|4446.jpg|4791.jpg|1684.jpg|3640.jpg|4874.jpg|565.jpg|1931.jpg|1427.jpg|4965.jpg|4419.jpg|4455.jpg|513.jpg|875.jpg|554.jpg|4918.jpg|1806.jpg"
+    },
+    {
+      "class_id": 78,
+      "class_name": "beef",
+      "image_count": 15,
+      "box_count": 33,
+      "avg_boxes_per_image": 2.2,
+      "rarity_group": "Rare",
+      "image_filenames": "4655.jpg|4921.jpg|4503.jpg|3986.jpg|4635.jpg|626.jpg|4711.jpg|4885.jpg|2225.jpg|3854.jpg|4886.jpg|4414.jpg|4879.jpg|4670.jpg|4526.jpg"
+    },
+    {
+      "class_id": 91,
+      "class_name": "abalone",
+      "image_count": 24,
+      "box_count": 33,
+      "avg_boxes_per_image": 1.375,
+      "rarity_group": "Rare",
+      "image_filenames": "4618.jpg|4884.jpg|4838.jpg|4195.jpg|4925.jpg|3041.jpg|317.jpg|1455.jpg|4445.jpg|4930.jpg|3593.jpg|588.jpg|3036.jpg|1395.jpg|2720.jpg|1188.jpg|4538.jpg|4933.jpg|1454.jpg|4947.jpg|1430.jpg|1226.jpg|3741.jpg|3748.jpg"
+    },
+    {
+      "class_id": 5,
+      "class_name": "popcorn",
+      "image_count": 10,
+      "box_count": 34,
+      "avg_boxes_per_image": 3.4,
+      "rarity_group": "Rare",
+      "image_filenames": "4967.jpg|4717.jpg|4483.jpg|4783.jpg|4784.jpg|4469.jpg|4490.jpg|4715.jpg|4788.jpg|4723.jpg"
+    },
+    {
+      "class_id": 20,
+      "class_name": "soy",
+      "image_count": 32,
+      "box_count": 38,
+      "avg_boxes_per_image": 1.1875,
+      "rarity_group": "Rare",
+      "image_filenames": "3918.jpg|4822.jpg|2051.jpg|4677.jpg|1903.jpg|3829.jpg|3313.jpg|1546.jpg|1149.jpg|1114.jpg|2028.jpg|1781.jpg|3621.jpg|3692.jpg|4006.jpg|4302.jpg|2421.jpg|4548.jpg|2075.jpg|4021.jpg|585.jpg|3518.jpg|4358.jpg|3808.jpg|1675.jpg|2043.jpg|3807.jpg|2876.jpg|2799.jpg|3074.jpg|4251.jpg|3140.jpg"
+    },
+    {
+      "class_id": 26,
+      "class_name": "apricot",
+      "image_count": 22,
+      "box_count": 39,
+      "avg_boxes_per_image": 1.7727272727272727,
+      "rarity_group": "Rare",
+      "image_filenames": "4780.jpg|4981.jpg|4574.jpg|4775.jpg|4451.jpg|1444.jpg|4709.jpg|4643.jpg|4735.jpg|4745.jpg|4506.jpg|4484.jpg|4499.jpg|4478.jpg|4410.jpg|4950.jpg|2663.jpg|4600.jpg|4719.jpg|4688.jpg|4456.jpg|4672.jpg"
+    },
+    {
+      "class_id": 42,
+      "class_name": "papaya",
+      "image_count": 20,
+      "box_count": 39,
+      "avg_boxes_per_image": 1.95,
+      "rarity_group": "Rare",
+      "image_filenames": "1437.jpg|1738.jpg|426.jpg|2765.jpg|3214.jpg|971.jpg|2129.jpg|4942.jpg|4770.jpg|1063.jpg|533.jpg|1927.jpg|4125.jpg|2549.jpg|2288.jpg|2551.jpg|3671.jpg|1465.jpg|1617.jpg|1778.jpg"
+    },
+    {
+      "class_id": 18,
+      "class_name": "cashew",
+      "image_count": 13,
+      "box_count": 43,
+      "avg_boxes_per_image": 3.3076923076923075,
+      "rarity_group": "Rare",
+      "image_filenames": "4474.jpg|4558.jpg|4680.jpg|4683.jpg|4500.jpg|4717.jpg|4774.jpg|4604.jpg|4955.jpg|2404.jpg|4679.jpg|4857.jpg|2223.jpg"
+    },
+    {
+      "class_id": 17,
+      "class_name": "red beans",
+      "image_count": 20,
+      "box_count": 44,
+      "avg_boxes_per_image": 2.2,
+      "rarity_group": "Rare",
+      "image_filenames": "4562.jpg|4596.jpg|261.jpg|3965.jpg|1218.jpg|421.jpg|3133.jpg|354.jpg|3875.jpg|2325.jpg|4493.jpg|4713.jpg|2720.jpg|2733.jpg|4823.jpg|4521.jpg|4921.jpg|1524.jpg|4953.jpg|4760.jpg"
+    },
+    {
+      "class_id": 14,
+      "class_name": "milk",
+      "image_count": 45,
+      "box_count": 47,
+      "avg_boxes_per_image": 1.0444444444444445,
+      "rarity_group": "Rare",
+      "image_filenames": "4476.jpg|3441.jpg|1339.jpg|720.jpg|3442.jpg|4847.jpg|700.jpg|2541.jpg|38.jpg|1699.jpg|934.jpg|854.jpg|4789.jpg|4434.jpg|4620.jpg|1639.jpg|4905.jpg|4982.jpg|4651.jpg|1090.jpg|473.jpg|4896.jpg|4475.jpg|4764.jpg|4798.jpg|2315.jpg|2203.jpg|3351.jpg|4937.jpg|1388.jpg|2564.jpg|1353.jpg|2741.jpg|4589.jpg|1827.jpg|4612.jpg|4642.jpg|4761.jpg|4873.jpg|4546.jpg|4904.jpg|600.jpg|820.jpg|476.jpg|2056.jpg"
+    },
+    {
+      "class_id": 37,
+      "class_name": "hami melon",
+      "image_count": 30,
+      "box_count": 51,
+      "avg_boxes_per_image": 1.7,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 38,
+      "class_name": "lemon",
+      "image_count": 21,
+      "box_count": 51,
+      "avg_boxes_per_image": 2.4285714285714284,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 82,
+      "class_name": "chicken",
+      "image_count": 36,
+      "box_count": 55,
+      "avg_boxes_per_image": 1.5277777777777777,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 0,
+      "class_name": "candy",
+      "image_count": 21,
+      "box_count": 56,
+      "avg_boxes_per_image": 2.6666666666666665,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 76,
+      "class_name": "tofu",
+      "image_count": 54,
+      "box_count": 58,
+      "avg_boxes_per_image": 1.0740740740740742,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 41,
+      "class_name": "orange",
+      "image_count": 38,
+      "box_count": 64,
+      "avg_boxes_per_image": 1.6842105263157894,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 44,
+      "class_name": "pear",
+      "image_count": 29,
+      "box_count": 65,
+      "avg_boxes_per_image": 2.2413793103448274,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 60,
+      "class_name": "asparagus",
+      "image_count": 54,
+      "box_count": 71,
+      "avg_boxes_per_image": 1.3148148148148149,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 54,
+      "class_name": "onion",
+      "image_count": 30,
+      "box_count": 73,
+      "avg_boxes_per_image": 2.433333333333333,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 33,
+      "class_name": "coconut",
+      "image_count": 43,
+      "box_count": 75,
+      "avg_boxes_per_image": 1.744186046511628,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 56,
+      "class_name": "radish",
+      "image_count": 67,
+      "box_count": 78,
+      "avg_boxes_per_image": 1.164179104477612,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 19,
+      "class_name": "dried cranberries",
+      "image_count": 18,
+      "box_count": 79,
+      "avg_boxes_per_image": 4.388888888888889,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 50,
+      "class_name": "watermelon",
+      "image_count": 71,
+      "box_count": 83,
+      "avg_boxes_per_image": 1.1690140845070423,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 34,
+      "class_name": "fig",
+      "image_count": 43,
+      "box_count": 93,
+      "avg_boxes_per_image": 2.1627906976744184,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 27,
+      "class_name": "avocado",
+      "image_count": 57,
+      "box_count": 96,
+      "avg_boxes_per_image": 1.6842105263157894,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 89,
+      "class_name": "crab",
+      "image_count": 48,
+      "box_count": 96,
+      "avg_boxes_per_image": 2.0,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 11,
+      "class_name": "milkshake",
+      "image_count": 80,
+      "box_count": 99,
+      "avg_boxes_per_image": 1.2375,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 21,
+      "class_name": "walnut",
+      "image_count": 41,
+      "box_count": 99,
+      "avg_boxes_per_image": 2.4146341463414633,
+      "rarity_group": "Medium",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 67,
+      "class_name": "lotus root",
+      "image_count": 48,
+      "box_count": 105,
+      "avg_boxes_per_image": 2.1875,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 32,
+      "class_name": "kiwi",
+      "image_count": 47,
+      "box_count": 107,
+      "avg_boxes_per_image": 2.276595744680851,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 80,
+      "class_name": "duck",
+      "image_count": 72,
+      "box_count": 108,
+      "avg_boxes_per_image": 1.5,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 10,
+      "class_name": "wine",
+      "image_count": 96,
+      "box_count": 117,
+      "avg_boxes_per_image": 1.21875,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 35,
+      "class_name": "grape",
+      "image_count": 73,
+      "box_count": 132,
+      "avg_boxes_per_image": 1.8082191780821917,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 12,
+      "class_name": "coffee",
+      "image_count": 127,
+      "box_count": 136,
+      "avg_boxes_per_image": 1.0708661417322836,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 90,
+      "class_name": "shrimp",
+      "image_count": 94,
+      "box_count": 138,
+      "avg_boxes_per_image": 1.4680851063829787,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 70,
+      "class_name": "okra",
+      "image_count": 73,
+      "box_count": 140,
+      "avg_boxes_per_image": 1.917808219178082,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 3,
+      "class_name": "chocolate",
+      "image_count": 49,
+      "box_count": 151,
+      "avg_boxes_per_image": 3.0816326530612246,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 13,
+      "class_name": "juice",
+      "image_count": 129,
+      "box_count": 151,
+      "avg_boxes_per_image": 1.1705426356589148,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 63,
+      "class_name": "carrot",
+      "image_count": 114,
+      "box_count": 155,
+      "avg_boxes_per_image": 1.3596491228070176,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 28,
+      "class_name": "banana",
+      "image_count": 100,
+      "box_count": 156,
+      "avg_boxes_per_image": 1.56,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 97,
+      "class_name": "pasta",
+      "image_count": 82,
+      "box_count": 182,
+      "avg_boxes_per_image": 2.2195121951219514,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 40,
+      "class_name": "olive",
+      "image_count": 123,
+      "box_count": 185,
+      "avg_boxes_per_image": 1.5040650406504066,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 2,
+      "class_name": "french fries",
+      "image_count": 166,
+      "box_count": 189,
+      "avg_boxes_per_image": 1.1385542168674698,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 24,
+      "class_name": "apple",
+      "image_count": 105,
+      "box_count": 189,
+      "avg_boxes_per_image": 1.8,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 100,
+      "class_name": "pie",
+      "image_count": 99,
+      "box_count": 190,
+      "avg_boxes_per_image": 1.9191919191919191,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 39,
+      "class_name": "mango",
+      "image_count": 94,
+      "box_count": 195,
+      "avg_boxes_per_image": 2.074468085106383,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 55,
+      "class_name": "celery",
+      "image_count": 99,
+      "box_count": 202,
+      "avg_boxes_per_image": 2.04040404040404,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 49,
+      "class_name": "cantaloupe",
+      "image_count": 154,
+      "box_count": 207,
+      "avg_boxes_per_image": 1.344155844155844,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 102,
+      "class_name": "bread stick",
+      "image_count": 155,
+      "box_count": 217,
+      "avg_boxes_per_image": 1.4,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 94,
+      "class_name": "burger",
+      "image_count": 152,
+      "box_count": 232,
+      "avg_boxes_per_image": 1.5263157894736843,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 71,
+      "class_name": "lettuce",
+      "image_count": 157,
+      "box_count": 233,
+      "avg_boxes_per_image": 1.484076433121019,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 87,
+      "class_name": "fish",
+      "image_count": 164,
+      "box_count": 233,
+      "avg_boxes_per_image": 1.420731707317073,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 16,
+      "class_name": "almond",
+      "image_count": 70,
+      "box_count": 266,
+      "avg_boxes_per_image": 3.8,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 43,
+      "class_name": "peach",
+      "image_count": 183,
+      "box_count": 277,
+      "avg_boxes_per_image": 1.5136612021857923,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 75,
+      "class_name": "seaweed",
+      "image_count": 133,
+      "box_count": 280,
+      "avg_boxes_per_image": 2.1052631578947367,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 64,
+      "class_name": "cauliflower",
+      "image_count": 187,
+      "box_count": 298,
+      "avg_boxes_per_image": 1.5935828877005347,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 23,
+      "class_name": "egg",
+      "image_count": 223,
+      "box_count": 305,
+      "avg_boxes_per_image": 1.3677130044843049,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 84,
+      "class_name": "sausage",
+      "image_count": 187,
+      "box_count": 312,
+      "avg_boxes_per_image": 1.6684491978609626,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 53,
+      "class_name": "tomato",
+      "image_count": 258,
+      "box_count": 324,
+      "avg_boxes_per_image": 1.255813953488372,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 95,
+      "class_name": "sandwich",
+      "image_count": 253,
+      "box_count": 337,
+      "avg_boxes_per_image": 1.33201581027668,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 4,
+      "class_name": "biscuit",
+      "image_count": 218,
+      "box_count": 345,
+      "avg_boxes_per_image": 1.5825688073394495,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 48,
+      "class_name": "pomelo",
+      "image_count": 196,
+      "box_count": 364,
+      "avg_boxes_per_image": 1.8571428571428572,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 58,
+      "class_name": "potato",
+      "image_count": 343,
+      "box_count": 401,
+      "avg_boxes_per_image": 1.1690962099125364,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 8,
+      "class_name": "cheese",
+      "image_count": 276,
+      "box_count": 432,
+      "avg_boxes_per_image": 1.565217391304348,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 30,
+      "class_name": "cherry",
+      "image_count": 159,
+      "box_count": 462,
+      "avg_boxes_per_image": 2.9056603773584904,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 9,
+      "class_name": "cake",
+      "image_count": 333,
+      "box_count": 475,
+      "avg_boxes_per_image": 1.4264264264264264,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 66,
+      "class_name": "kelp",
+      "image_count": 397,
+      "box_count": 490,
+      "avg_boxes_per_image": 1.234256926952141,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 93,
+      "class_name": "bread",
+      "image_count": 305,
+      "box_count": 528,
+      "avg_boxes_per_image": 1.7311475409836066,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 81,
+      "class_name": "goose",
+      "image_count": 369,
+      "box_count": 547,
+      "avg_boxes_per_image": 1.4823848238482384,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 31,
+      "class_name": "blueberry",
+      "image_count": 152,
+      "box_count": 554,
+      "avg_boxes_per_image": 3.6447368421052633,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 36,
+      "class_name": "grapefruit",
+      "image_count": 423,
+      "box_count": 608,
+      "avg_boxes_per_image": 1.4373522458628842,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 46,
+      "class_name": "plum",
+      "image_count": 474,
+      "box_count": 610,
+      "avg_boxes_per_image": 1.2869198312236287,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 65,
+      "class_name": "eggplant",
+      "image_count": 464,
+      "box_count": 629,
+      "avg_boxes_per_image": 1.355603448275862,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 92,
+      "class_name": "squid",
+      "image_count": 373,
+      "box_count": 695,
+      "avg_boxes_per_image": 1.8632707774798927,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 79,
+      "class_name": "lamb",
+      "image_count": 403,
+      "box_count": 710,
+      "avg_boxes_per_image": 1.7617866004962779,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 29,
+      "class_name": "berry",
+      "image_count": 388,
+      "box_count": 718,
+      "avg_boxes_per_image": 1.8505154639175259,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 7,
+      "class_name": "ice cream",
+      "image_count": 635,
+      "box_count": 854,
+      "avg_boxes_per_image": 1.3448818897637795,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 45,
+      "class_name": "pineapple",
+      "image_count": 728,
+      "box_count": 939,
+      "avg_boxes_per_image": 1.289835164835165,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 86,
+      "class_name": "bacon",
+      "image_count": 704,
+      "box_count": 943,
+      "avg_boxes_per_image": 1.3394886363636365,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 69,
+      "class_name": "mushroom",
+      "image_count": 785,
+      "box_count": 999,
+      "avg_boxes_per_image": 1.2726114649681528,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 88,
+      "class_name": "shell",
+      "image_count": 636,
+      "box_count": 1022,
+      "avg_boxes_per_image": 1.6069182389937107,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 51,
+      "class_name": "star fruit",
+      "image_count": 818,
+      "box_count": 1066,
+      "avg_boxes_per_image": 1.3031784841075795,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 47,
+      "class_name": "pomegranate",
+      "image_count": 848,
+      "box_count": 1111,
+      "avg_boxes_per_image": 1.3101415094339623,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 72,
+      "class_name": "pumpkin",
+      "image_count": 790,
+      "box_count": 1374,
+      "avg_boxes_per_image": 1.7392405063291139,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 83,
+      "class_name": "pork belly",
+      "image_count": 881,
+      "box_count": 1379,
+      "avg_boxes_per_image": 1.565266742338252,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    },
+    {
+      "class_id": 57,
+      "class_name": "garlic",
+      "image_count": 990,
+      "box_count": 1616,
+      "avg_boxes_per_image": 1.6323232323232324,
+      "rarity_group": "Common",
+      "image_filenames": ""
+    }
+  ],
+  "multi_rare_results": [
+    {
+      "image_filename": "4930.jpg",
+      "rare_class_count": 3,
+      "rare_classes": "abalone|pizza|noodles",
+      "box_count": 8
+    },
+    {
+      "image_filename": "1699.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "milk|egg tart",
+      "box_count": 6
+    },
+    {
+      "image_filename": "4717.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "cashew|popcorn",
+      "box_count": 4
+    },
+    {
+      "image_filename": "1063.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "pudding|papaya",
+      "box_count": 4
+    },
+    {
+      "image_filename": "4764.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "pork|milk",
+      "box_count": 5
+    },
+    {
+      "image_filename": "4798.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "pork|milk",
+      "box_count": 4
+    },
+    {
+      "image_filename": "354.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "red beans|candied dates",
+      "box_count": 12
+    },
+    {
+      "image_filename": "2720.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "abalone|red beans",
+      "box_count": 17
+    },
+    {
+      "image_filename": "4921.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "red beans|beef",
+      "box_count": 7
+    },
+    {
+      "image_filename": "4474.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "cashew|peanut",
+      "box_count": 8
+    },
+    {
+      "image_filename": "4558.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "cashew|ham",
+      "box_count": 7
+    },
+    {
+      "image_filename": "4857.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "cashew|peanut",
+      "box_count": 13
+    },
+    {
+      "image_filename": "3036.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "abalone|cucumber",
+      "box_count": 5
+    },
+    {
+      "image_filename": "4787.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "ham|spinach",
+      "box_count": 8
+    },
+    {
+      "image_filename": "4886.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "dumpling|beef",
+      "box_count": 2
+    },
+    {
+      "image_filename": "1454.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "abalone|pizza",
+      "box_count": 7
+    },
+    {
+      "image_filename": "4702.jpg",
+      "rare_class_count": 2,
+      "rare_classes": "noodles|pizza",
+      "box_count": 5
+    }
+  ]
+}

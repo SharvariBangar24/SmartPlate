@@ -1,0 +1,106 @@
+class_id,class_name,image_count,box_count,box_percentage,rarity_group
+103,steamed bun,0,0,0.0000,Extremely rare
+104,porridge,0,0,0.0000,Extremely rare
+73,spinach,1,4,0.0141,Extremely rare
+6,pudding,4,5,0.0177,Extremely rare
+59,ginger,5,7,0.0248,Extremely rare
+1,egg tart,3,8,0.0283,Extremely rare
+85,ham,3,8,0.0283,Extremely rare
+98,noodles,6,9,0.0318,Extremely rare
+62,cabbage,9,10,0.0354,Extremely rare
+99,rice,7,11,0.0389,Very rare
+96,pizza,10,12,0.0424,Very rare
+101,dumpling,12,12,0.0424,Very rare
+25,candied dates,7,14,0.0495,Very rare
+22,peanut,7,16,0.0566,Very rare
+74,yam,7,16,0.0566,Very rare
+52,strawberry,14,19,0.0672,Very rare
+61,broccoli,19,22,0.0778,Very rare
+77,pork,23,25,0.0884,Very rare
+15,tea,24,29,0.1026,Rare
+68,cucumber,19,33,0.1167,Rare
+78,beef,15,33,0.1167,Rare
+91,abalone,24,33,0.1167,Rare
+5,popcorn,10,34,0.1203,Rare
+20,soy,32,38,0.1344,Rare
+26,apricot,22,39,0.1379,Rare
+42,papaya,20,39,0.1379,Rare
+18,cashew,13,43,0.1521,Rare
+17,red beans,20,44,0.1556,Rare
+14,milk,45,47,0.1662,Rare
+37,hami melon,30,51,0.1804,Medium
+38,lemon,21,51,0.1804,Medium
+82,chicken,36,55,0.1945,Medium
+0,candy,21,56,0.1981,Medium
+76,tofu,54,58,0.2051,Medium
+41,orange,38,64,0.2264,Medium
+44,pear,29,65,0.2299,Medium
+60,asparagus,54,71,0.2511,Medium
+54,onion,30,73,0.2582,Medium
+33,coconut,43,75,0.2653,Medium
+56,radish,67,78,0.2759,Medium
+19,dried cranberries,18,79,0.2794,Medium
+50,watermelon,71,83,0.2936,Medium
+34,fig,43,93,0.3289,Medium
+27,avocado,57,96,0.3396,Medium
+89,crab,48,96,0.3396,Medium
+11,milkshake,80,99,0.3502,Medium
+21,walnut,41,99,0.3502,Medium
+67,lotus root,48,105,0.3714,Common
+32,kiwi,47,107,0.3785,Common
+80,duck,72,108,0.3820,Common
+10,wine,96,117,0.4138,Common
+35,grape,73,132,0.4669,Common
+12,coffee,127,136,0.4810,Common
+90,shrimp,94,138,0.4881,Common
+70,okra,73,140,0.4952,Common
+3,chocolate,49,151,0.5341,Common
+13,juice,129,151,0.5341,Common
+63,carrot,114,155,0.5482,Common
+28,banana,100,156,0.5518,Common
+97,pasta,82,182,0.6437,Common
+40,olive,123,185,0.6544,Common
+2,french fries,166,189,0.6685,Common
+24,apple,105,189,0.6685,Common
+100,pie,99,190,0.6720,Common
+39,mango,94,195,0.6897,Common
+55,celery,99,202,0.7145,Common
+49,cantaloupe,154,207,0.7322,Common
+102,bread stick,155,217,0.7675,Common
+94,burger,152,232,0.8206,Common
+71,lettuce,157,233,0.8241,Common
+87,fish,164,233,0.8241,Common
+16,almond,70,266,0.9409,Common
+43,peach,183,277,0.9798,Common
+75,seaweed,133,280,0.9904,Common
+64,cauliflower,187,298,1.0540,Common
+23,egg,223,305,1.0788,Common
+84,sausage,187,312,1.1036,Common
+53,tomato,258,324,1.1460,Common
+95,sandwich,253,337,1.1920,Common
+4,biscuit,218,345,1.2203,Common
+48,pomelo,196,364,1.2875,Common
+58,potato,343,401,1.4184,Common
+8,cheese,276,432,1.5280,Common
+30,cherry,159,462,1.6341,Common
+9,cake,333,475,1.6801,Common
+66,kelp,397,490,1.7332,Common
+93,bread,305,528,1.8676,Common
+81,goose,369,547,1.9348,Common
+31,blueberry,152,554,1.9595,Common
+36,grapefruit,423,608,2.1505,Common
+46,plum,474,610,2.1576,Common
+65,eggplant,464,629,2.2248,Common
+92,squid,373,695,2.4583,Common
+79,lamb,403,710,2.5113,Common
+29,berry,388,718,2.5396,Common
+7,ice cream,635,854,3.0207,Common
+45,pineapple,728,939,3.3213,Common
+86,bacon,704,943,3.3355,Common
+69,mushroom,785,999,3.5335,Common
+88,shell,636,1022,3.6149,Common
+51,star fruit,818,1066,3.7705,Common
+47,pomegranate,848,1111,3.9297,Common
+72,pumpkin,790,1374,4.8599,Common
+83,pork belly,881,1379,4.8776,Common
+57,garlic,990,1616,5.7159,Common
